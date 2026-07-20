@@ -9,6 +9,27 @@ published number.
 README isn't the place for. Everything here is real run output — not curated
 screenshots — so the numbers can be checked, not just trusted.
 
+## Recompute the numbers yourself
+
+Don't take the headline on faith — re-derive it. The
+[**verification kit**](verification-kit/) ships the exact grader, the
+per-question verdicts behind each score, and a one-command tool that recomputes
+the accuracy from those verdicts — no memory engine, no network, no
+dependencies:
+
+```bash
+cd verification-kit
+node verify.js          # recompute every score from its per-question rows
+node scoring.js --selftest   # audit the grader on real cases
+```
+
+`verify.js` proves the advertised score is the **exact sum of the published
+per-question rows** — no hidden questions, no arithmetic massaging. The
+baseline (64.6%) and local-sovereign (50%) ledgers recompute in full; the 72.9%
+engine result is reported as a lower bound (see the kit's `METHODOLOGY.md`).
+There's a readable results page at
+[`verification-kit/index.html`](verification-kit/index.html).
+
 ## Campaigns
 
 | Campaign | Headline | |

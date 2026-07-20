@@ -5,6 +5,8 @@ Transparency archive for benchmark campaigns run against
 engine — methodology, honest caveats, and the raw run logs behind every
 published number.
 
+> **📊 [Live results page →](https://yaka0007.github.io/MnemosyneOS---benchmarks/verification-kit/)** — the numbers, the per-question ledger, and how to recompute them yourself.
+
 **Why a separate repo:** a benchmark claim deserves scrutiny the product
 README isn't the place for. Everything here is real run output — not curated
 screenshots — so the numbers can be checked, not just trusted.
@@ -27,8 +29,11 @@ node scoring.js --selftest   # audit the grader on real cases
 per-question rows** — no hidden questions, no arithmetic massaging. The
 baseline (64.6%) and local-sovereign (50%) ledgers recompute in full; the 72.9%
 engine result is reported as a lower bound (see the kit's `METHODOLOGY.md`).
-There's a readable results page at
-[`verification-kit/index.html`](verification-kit/index.html).
+
+**➡️ Rendered results page:
+[yaka0007.github.io/MnemosyneOS---benchmarks/verification-kit](https://yaka0007.github.io/MnemosyneOS---benchmarks/verification-kit/)**
+— that's the live site; the files in [`verification-kit/`](verification-kit/)
+are the source behind it.
 
 ## Campaigns
 

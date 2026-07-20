@@ -1,0 +1,590 @@
+[SYSTEM] Tool registered: scanWorkspace — "Scans the workspace root directory and lists the significant source files."
+[SYSTEM] Tool registered: analyzeArchitecture — "Analyzes the monorepo package structure and their cross-dependencies."
+[SYSTEM] Tool registered: readFile — "Reads the content of a source file and returns it for analysis."
+[34m[EMBEDDING-KERNEL][0m Provider registered: [36mharness:e5[0m | priority=[33m0[0m | dim=[33m768D[0m | offline=[32myes[0m
+[NEURAL-ENGINE] Provider registered: CLOUD — vertex:gemini-2.5-pro (0Mo RAM)
+2026-07-14T01:19:31.486Z SPINE→DREAM×FULL-HAYSTACK — 2 q · min=3 limit=0 batch=16 model=gemini-2.5-pro
+2026-07-14T01:19:31.487Z 
+━━ gpt4_2312f94c [temporal-reasoning] Which device did I got first, the Samsung Galaxy S22 or the Dell XPS 13?
+2026-07-14T01:19:31.487Z    expected: Samsung Galaxy S22
+2026-07-14T01:19:31.498Z   [sort] copied _fhr_ → _fhs_gpt4_2312f94c.db
+(node:235872) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[LLM-SPINE-SCAN] new sub-spine CREATIVE_WRITING (Creative Writing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRAVEL_PLANNING (Travel Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CULTURAL_DISCUSSION (Cultural Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FITNESS_TRAINING (Fitness Training) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LANGUAGE_LEARNING (Language Learning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CIVIC_ENGAGEMENT (Civic Engagement) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CULTURAL_EXPLORATION (Cultural Exploration) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FAMILY_ACTIVITIES (Family Activities) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_MAINTENANCE (Home Maintenance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WORKPLACE_WELLBEING (Workplace Wellbeing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CYCLING_GEAR (Cycling Gear) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RECIPE_SHARING (Recipe Sharing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PARENTING_ADVICE (Parenting Advice) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MOVING_PLANNING (Moving Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FASHION_STYLE (Fashion Style) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MARKETING_STRATEGY (Marketing Strategy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SPORTS_RECREATION (Sports & Recreation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BOOK_RECOMMENDATIONS (Book Recommendations) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TECHNOLOGY_DISCUSSION (Technology Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOFTWARE_DEVELOPMENT (Software Development) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSIC_THEORY_PRACTICE (Music Theory & Practice) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine VACATION_PLANNING (Vacation Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOCIAL_COMMENTARY (Social Commentary) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COOKING_RECIPES (Cooking & Recipes) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine EVENT_PLANNING (Event Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CAR_MAINTENANCE (Car Maintenance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CAREER_DEVELOPMENT (Career Development) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CAREER_PLANNING (Career Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PROBLEM_SOLVING (Problem Solving) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOCIAL_MEDIA_STRATEGY (Social Media Strategy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LAW_ENFORCEMENT_TECHNOLOGY (Law Enforcement Technology) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PHILOSOPHY_ETHICS (Philosophy & Ethics) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DISASTER_PREPAREDNESS (Disaster Preparedness) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCTIVITY_TOOLS (Productivity Tools) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WELLBEING_ROUTINES (Wellbeing Routines) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MEDIA_PLATFORM_DISCUSSION (Media Platform Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CREATIVE_IMAGINATION (Creative Imagination) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LEGAL_DISCUSSION (Legal Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FILM_ANALYSIS (Film Analysis) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DESIGN_CONSULTATION (Design Consultation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ART_DESIGN (Art & Design) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_DECOR (Home Decor) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FOOD_COOKING (Food & Cooking) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOFTWARE_BUSINESS (Software & Business) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSIC_ENTERTAINMENT (Music & Entertainment) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TECHNICAL_WRITING (Technical Writing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HISTORY_DISCUSSION (History Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GIFT_PLANNING (Gift Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SCIENCE_DISCUSSION (Science Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine AGRICULTURE_FARMING (Agriculture & Farming) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MENTORSHIP_GUIDANCE (Mentorship & Guidance) under CONVERSATION
+2026-07-14T01:20:47.904Z   [sort] 320/2398 scanned · 320 sorted · 51 new sub-spines · 0 failed batches
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_PLANNING (Business Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PHOTOGRAPHY_TIPS (Photography Tips) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DIY_CRAFTS (DIY Crafts) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_PREPARATION (Academic Preparation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HEALTH_WELLNESS (Health & Wellness) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GAMING_DISCUSSION (Gaming Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RELATIONSHIP_ADVICE (Relationship Advice) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSIC_DISCUSSION (Music Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CREATIVE_HOBBIES (Creative Hobbies) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PERSONAL_FINANCE (Personal Finance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCTIVITY_ROUTINES (Productivity Routines) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PODCAST_CREATION (Podcast Creation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine AI_SIMULATION (AI Simulation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SKINCARE_BEAUTY (Skincare & Beauty) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GROCERY_SHOPPING (Grocery Shopping) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ONLINE_SHOPPING (Online Shopping) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CULTURAL_INSTITUTIONS (Cultural Institutions) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine AI_CAPABILITIES (AI Capabilities) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SUSTAINABLE_TOURISM (Sustainable Tourism) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TV_SHOW_DISCUSSION (TV Show Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ECOMMERCE_PLATFORMS (E-commerce Platforms) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PROBABILITY_STATISTICS (Probability & Statistics) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRAVEL_LOGISTICS (Travel Logistics) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine VEHICLE_SALES (Vehicle Sales) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_DISCUSSION (Academic Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_INSTITUTIONS (Academic Institutions) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PLANT_CARE (Plant Care) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RESTAURANT_MENU_DESIGN (Restaurant Menu Design) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine THEATER_PERFORMANCE (Theater & Performance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SPIRITUAL_REFLECTION (Spiritual Reflection) under CONVERSATION
+2026-07-14T01:21:54.727Z   [sort] 640/2398 scanned · 640 sorted · 81 new sub-spines · 0 failed batches
+[LLM-SPINE-SCAN] new sub-spine CERAMIC_ARTS (Ceramic Arts) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MATHEMATICS_EDUCATION (Mathematics Education) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COLLECTIBLES_HOBBIES (Collectibles & Hobbies) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine IMMIGRATION_GUIDANCE (Immigration Guidance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine EDUCATION_SYSTEMS (Education Systems) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COOKING_TECHNIQUES (Cooking Techniques) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine AI_IMAGE_GENERATION (AI Image Generation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PET_CARE (Pet Care) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine APPRAISAL_PROCESS (Appraisal Process) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ENVIRONMENTAL_CONSERVATION (Environmental Conservation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOCIAL_MEDIA_WELLBEING (Social Media Wellbeing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine READING_HABITS (Reading Habits) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PROFESSIONAL_ROLEPLAY (Professional Roleplay) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DAILY_ROUTINES (Daily Routines) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_STRATEGY (Business Strategy) under CONVERSATION
+2026-07-14T01:22:52.421Z   [sort] 960/2398 scanned · 960 sorted · 96 new sub-spines · 0 failed batches
+[LLM-SPINE-SCAN] new sub-spine BLOCKCHAIN_NFT (Blockchain & NFTs) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WRITING_STYLE_GUIDES (Writing Style Guides) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DIGITAL_PRIVACY (Digital Privacy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FAMILY_LEISURE (Family Leisure) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CONTENT_CREATION (Content Creation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CONTENT_STRATEGY (Content Strategy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOCIAL_MEDIA_ENGAGEMENT (Social Media Engagement) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SIMULATION_DESIGN (Simulation Design) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COMMUNITY_DEVELOPMENT (Community Development) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PSYCHOLOGY_SELF_HELP (Psychology & Self-Help) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOFTWARE_CONFIGURATION (Software Configuration) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSIC_PERFORMANCE (Music Performance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FOOD_BEVERAGE_EXPLORATION (Food & Beverage Exploration) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COFFEE_PREPARATION (Coffee Preparation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WINE_PAIRING (Wine Pairing) under CONVERSATION
+2026-07-14T01:23:51.474Z   [sort] 1280/2398 scanned · 1280 sorted · 111 new sub-spines · 0 failed batches
+[LLM-SPINE-SCAN] new sub-spine FESTIVAL_PLANNING (Festival Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WEB_DEVELOPMENT (Web Development) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_ETHICS (Business Ethics) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine NAUTICAL_HISTORY (Nautical History) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CHARITY_EVENTS (Charity Events) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RELIGIOUS_DISCUSSION (Religious Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BIOLOGY_DISCUSSION (Biology Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine USER_RESEARCH (User Research) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HISTORICAL_DISCUSSION (Historical Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CROWDFUNDING_PROJECTS (Crowdfunding Projects) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ORGANIZATION_TIPS (Organization Tips) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RECYCLING_DISPOSAL (Recycling & Disposal) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine REAL_ESTATE_MANAGEMENT (Real Estate Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RESTAURANT_RECOMMENDATIONS (Restaurant Recommendations) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine APP_DEVELOPMENT (App Development) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DATE_PLANNING (Date Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GENERAL_CONVERSATION (General Conversation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine AI_INTERACTION (AI Interaction) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOBBY_EXPLORATION (Hobby Exploration) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOBBY_DISCUSSION (Hobby Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FAMILY_HISTORY (Family History) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MODEL_BUILDING (Model Building) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ECOMMERCE_ANALYTICS (E-commerce Analytics) under CONVERSATION
+2026-07-14T01:24:52.511Z   [sort] 1600/2398 scanned · 1600 sorted · 134 new sub-spines · 0 failed batches
+[LLM-SPINE-SCAN] new sub-spine FASHION_SHOPPING (Fashion Shopping) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_MANAGEMENT (Home Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DIGITAL_IDENTITY_MANAGEMENT (Digital Identity Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BOARD_GAME_DISCUSSION (Board Game Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCT_FEATURES (Product Features) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine OUTDOOR_ACTIVITIES (Outdoor Activities) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GAME_STRATEGY (Game Strategy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LANGUAGE_PRESERVATION (Language Preservation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ART_HISTORY_DISCUSSION (Art History Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LITERARY_EVENTS (Literary Events) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WRITING_CRAFT_PUBLISHING (Writing Craft & Publishing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ANTIQUES_COLLECTIBLES (Antiques & Collectibles) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_SYSTEMS_DESIGN (Business Systems Design) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CLOTHING_ORGANIZATION (Clothing Organization) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine METAPHYSICAL_DISCUSSION (Metaphysical Discussion) under CONVERSATION
+2026-07-14T01:25:52.106Z   [sort] 1920/2398 scanned · 1920 sorted · 149 new sub-spines · 0 failed batches
+[LLM-SPINE-SCAN] new sub-spine PROJECT_DISCUSSION (Project Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine EDUCATION_TECHNOLOGY (Education Technology) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MOVIE_RECOMMENDATIONS (Movie Recommendations) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine APPRENTICESHIP_GUIDANCE (Apprenticeship Guidance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine VIDEO_PRODUCTION (Video Production) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSIC_PRODUCTION (Music Production) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine YOGA_PRACTICE (Yoga Practice) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CYBERSECURITY_AUDIT (Cybersecurity Audit) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FINANCIAL_LITERACY (Financial Literacy) under CONVERSATION
+2026-07-14T01:26:50.200Z   [sort] 2240/2398 scanned · 2224 sorted · 158 new sub-spines · 1 failed batches
+[LLM-SPINE-SCAN] new sub-spine CRAFT_HOBBIES (Craft Hobbies) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine EV_TECHNOLOGY (EV Technology) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LEGAL_ADMINISTRATION (Legal Administration) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CIVIC_ADMINISTRATION (Civic Administration) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LOCAL_EXPLORATION (Local Exploration) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRANSPORTATION_LOGISTICS (Transportation Logistics) under CONVERSATION
+2026-07-14T01:27:21.233Z   [sort] 2398/2398 scanned · 2382 sorted · 164 new sub-spines · 1 failed batches
+2026-07-14T01:27:21.233Z   [sort] DONE in 470s — 2382/2398 sorted, 164 sub-spines created, 1 failed batches
+2026-07-14T01:27:21.238Z   [sort] top spines: HEALTH_WELLNESS:90 SOFTWARE_DEVELOPMENT:77 VACATION_PLANNING:76 TRAVEL_PLANNING:74 SOCIAL_MEDIA_STRATEGY:68 FITNESS_TRAINING:68 COOKING_RECIPES:62 FOOD_COOKING:56 BOOK_RECOMMENDATIONS:52 TECHNOLOGY_DISCUSSION:47 CREATIVE_WRITING:45 GAMING_DISCUSSION:40 MUSIC_DISCUSSION:38 BUSINESS_PLANNING:38 WELLBEING_ROUTINES:36 FASHION_STYLE:36 EVENT_PLANNING:36 PRODUCTIVITY_ROUTINES:35 PLANT_CARE:35 COLLECTIBLES_HOBBIES:34 HOME_DECOR:33 CIVIC_ENGAGEMENT:33 PERSONAL_FINANCE:32 ACADEMIC_DISCUSSION:32 PHOTOGRAPHY_TIPS:31 … (+140 more)
+2026-07-14T01:27:21.238Z   [sort] ⚠ 16 chunks remain unsorted (SESSION) — re-run to resume if this is large
+2026-07-14T01:27:21.281Z   [dream] 133 topical spines ≥3 chunks (16 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T01:30:16.970Z   [dream] 5/133 spines · 5 ledgers · 176s
+2026-07-14T01:33:32.675Z   [dream] 10/133 spines · 10 ledgers · 371s
+2026-07-14T01:37:18.406Z   [dream] 15/133 spines · 15 ledgers · 597s
+2026-07-14T01:40:40.668Z   [dream] 20/133 spines · 20 ledgers · 799s
+2026-07-14T01:43:23.440Z   [dream] 25/133 spines · 25 ledgers · 962s
+2026-07-14T01:45:57.489Z   [dream] 30/133 spines · 30 ledgers · 1116s
+2026-07-14T01:48:17.138Z   [dream] 35/133 spines · 35 ledgers · 1256s
+2026-07-14T01:51:18.172Z   [dream] 40/133 spines · 40 ledgers · 1437s
+2026-07-14T01:53:41.033Z   [dream] 45/133 spines · 45 ledgers · 1580s
+2026-07-14T01:56:10.663Z   [dream] 50/133 spines · 50 ledgers · 1729s
+2026-07-14T01:58:30.590Z   [dream] 55/133 spines · 55 ledgers · 1869s
+2026-07-14T02:00:48.453Z   [dream] 60/133 spines · 60 ledgers · 2007s
+2026-07-14T02:02:49.981Z   [dream] 65/133 spines · 65 ledgers · 2129s
+2026-07-14T02:04:41.549Z   [dream] 70/133 spines · 70 ledgers · 2240s
+2026-07-14T02:07:13.710Z   [dream] 75/133 spines · 75 ledgers · 2392s
+2026-07-14T02:09:20.851Z   [dream] 80/133 spines · 80 ledgers · 2520s
+2026-07-14T02:10:42.320Z   [dream] 85/133 spines · 85 ledgers · 2601s
+2026-07-14T02:12:49.631Z   [dream] 90/133 spines · 90 ledgers · 2728s
+2026-07-14T02:14:30.092Z   [dream] 95/133 spines · 95 ledgers · 2829s
+2026-07-14T02:16:18.502Z   [dream] 100/133 spines · 100 ledgers · 2937s
+2026-07-14T02:17:58.743Z   [dream] 105/133 spines · 105 ledgers · 3037s
+2026-07-14T02:20:02.071Z   [dream] 110/133 spines · 110 ledgers · 3161s
+2026-07-14T02:22:06.443Z   [dream] 115/133 spines · 115 ledgers · 3285s
+2026-07-14T02:23:28.675Z   [dream] 120/133 spines · 120 ledgers · 3367s
+2026-07-14T02:25:15.916Z   [dream] 125/133 spines · 125 ledgers · 3475s
+2026-07-14T02:26:45.524Z   [dream] 130/133 spines · 130 ledgers · 3564s
+2026-07-14T02:27:23.834Z   [dream] 133/133 spines · 133 ledgers · 3603s
+2026-07-14T02:27:23.864Z   [dream] DONE in 3603s — 133 new ledgers (133 total) → _fhds_gpt4_2312f94c.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 19ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m62574[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4380Mo
+[NEURAL-ENGINE] CLOUD response in 16504ms
+2026-07-14T02:27:42.003Z   [qa] BASELINE (raw, no dream)   : HIT (18s, 32src) — Based on the memory context, you received the Samsung Galaxy S22 first. According to Source 2, your Dell XPS 13 laptop arrived on February 25th. The same source…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 18ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m71773[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4380Mo
+[NEURAL-ENGINE] CLOUD response in 10557ms
+2026-07-14T02:27:53.858Z   [qa] DREAM    (raw + ledgers)   : MISS (12s, 35src) — Based on the memory context, your Dell XPS 13 laptop arrived on February 25th. The acquisition date for the Samsung Galaxy S22 is not specified. Therefore, it c…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 18ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m71773[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4380Mo
+[NEURAL-ENGINE] CLOUD response in 9646ms
+2026-07-14T02:28:05.183Z   [qa] ALL      (sorted + ledgers): MISS (11s, 35src) — Based on the memory context, your Dell XPS 13 laptop arrived on February 25th. The context does not contain information regarding the acquisition date of your S…
+2026-07-14T02:28:05.202Z   ⏱ gpt4_2312f94c total 69min
+2026-07-14T02:28:05.202Z 
+━━ 0bb5a684 [temporal-reasoning] How many days before the team meeting I was preparing for did I attend the workshop on 'Effective Co…
+2026-07-14T02:28:05.202Z    expected: 7 days. 8 days (including the last day) is also acceptable.
+2026-07-14T02:28:05.209Z   [sort] copied _fhr_ → _fhs_0bb5a684.db
+[LLM-SPINE-SCAN] new sub-spine COLLECTIBLES_MANAGEMENT (Collectibles Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CULTURAL_HERITAGE (Cultural Heritage) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SMART_HOME_DEVICES (Smart Home Devices) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DIVINATION_INTERPRETATION (Divination Interpretation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine JOB_SEARCH_ASSISTANCE (Job Search Assistance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COOKING_RECIPES (Cooking & Recipes) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_ORGANIZATION (Home Organization) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRAVEL_LEISURE (Travel & Leisure) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOFTWARE_DEVELOPMENT (Software Development) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TECH_SUPPORT_ASSISTANCE (Tech Support Assistance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SCIENTIFIC_RESEARCH (Scientific Research) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LITERATURE_AND_AUTHORS (Literature & Authors) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOBBIES_CRAFTS (Hobbies & Crafts) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MODEL_BUILDING (Model Building) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ECOTOURISM (Ecotourism) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SHOE_CARE (Shoe Care) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine EDUCATION_CAREER_PLANNING (Education & Career Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BIRD_WATCHING (Bird Watching) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ANTIQUES_COLLECTIBLES (Antiques & Collectibles) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSIC_DISCUSSION (Music Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_RELOCATION (Home Relocation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SPORTS_EVENTS (Sports Events) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HEALTH_WELLNESS (Health & Wellness) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GAMING_DISCUSSION (Gaming Discussion) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SPORTS_EQUIPMENT (Sports Equipment) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FITNESS_WELLBEING (Fitness & Wellbeing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ART_CRAFT_DESIGN (Art, Craft & Design) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine OUTDOOR_ACTIVITIES (Outdoor Activities) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOCIAL_MEDIA_MANAGEMENT (Social Media Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine READING_LITERACY (Reading & Literacy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MENTAL_HEALTH_WELLBEING (Mental Health & Wellbeing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ENTERTAINMENT_MEDIA (Entertainment & Media) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GLOBAL_ECONOMICS (Global Economics) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ASTRONOMY_STARGAZING (Astronomy & Stargazing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MEDICAL_DEVICES (Medical Devices) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRAVEL_ACCOMMODATION (Travel & Accommodation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HISTORICAL_EVENTS (Historical Events) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ENTERTAINMENT_INDUSTRY (Entertainment Industry) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine AI_EDUCATION (AI in Education) under CONVERSATION
+2026-07-14T02:29:18.890Z   [sort] 320/2407 scanned · 319 sorted · 39 new sub-spines · 0 failed batches
+[LLM-SPINE-SCAN] new sub-spine GIFT_GIVING (Gift Giving) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ROLE_PLAYING_GAMES (Role-Playing Games) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_STRATEGY (Business Strategy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DANCE_FITNESS (Dance & Fitness) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FAMILY_RELATIONSHIPS (Family Relationships) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_SOFTWARE_DEVELOPMENT (Business Software Dev) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COMMUNITY_VOLUNTEERING (Community Volunteering) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SUSTAINABLE_LIVING (Sustainable Living) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MARKETING_STRATEGY (Marketing Strategy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_PLANNING (Business Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DECENTRALIZED_SYSTEMS (Decentralized Systems) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DIGITAL_PRESERVATION (Digital Preservation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DIGITAL_PHOTO_MANAGEMENT (Digital Photo Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WORD_GAMES (Word Games) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PET_CARE (Pet Care) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WORKPLACE_COMMUNICATION (Workplace Communication) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COMMUNICATION_SKILLS (Communication Skills) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LEGAL_DOCUMENTS (Legal Documents) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MANUFACTURING_PROCESSES (Manufacturing Processes) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRAINING_EDUCATION (Training & Education) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DECISION_MAKING (Decision Making) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PHOTOGRAPHY_GEAR (Photography Gear) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FINANCE_EDUCATION (Finance Education) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSICAL_INSTRUMENTS (Musical Instruments) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SCIENCE_COMMUNICATION (Science Communication) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ENVIRONMENTAL_CONSERVATION (Environmental Conservation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CULTURAL_EXCHANGE (Cultural Exchange) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CONTENT_CREATION (Content Creation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SCIENCE_EXPLANATION (Science Explanation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CONSUMER_ELECTRONICS (Consumer Electronics) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DIGITAL_MARKETING (Digital Marketing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSIC_CAREER (Music Career) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DAILY_PLANNING (Daily Planning) under CONVERSATION
+2026-07-14T02:30:29.079Z   [sort] 640/2407 scanned · 639 sorted · 72 new sub-spines · 0 failed batches
+[LLM-SPINE-SCAN] new sub-spine CREATIVE_WRITING (Creative Writing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_LOCALIZATION (Business Localization) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WEDDING_PLANNING (Wedding Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSICAL_EQUIPMENT (Musical Equipment) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BOARD_GAMES (Board Games) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine AGRICULTURE_FOOD_SECURITY (Agriculture & Food Security) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MEDIA_JOURNALISM (Media & Journalism) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FINANCIAL_MANAGEMENT (Financial Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LOYALTY_PROGRAMS (Loyalty Programs) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DATA_ANALYSIS (Data Analysis) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCT_RECOMMENDATIONS (Product Recommendations) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine EDUCATION_GROUP_PROJECTS (Education Group Projects) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_TRENDS (Academic Trends) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BOTANY_ECOLOGY (Botany & Ecology) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SUSTAINABLE_PRODUCTS (Sustainable Products) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine UNIVERSITY_LIFE (University Life) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GENERAL_ASSISTANCE (General Assistance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine E_COMMERCE_STRATEGY (E-commerce Strategy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DINING_EXPERIENCES (Dining Experiences) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PERSONAL_SHOPPING (Personal Shopping) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine JEWELRY_CARE_REPAIR (Jewelry Care & Repair) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine JEWELRY_PURCHASING (Jewelry Purchasing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine JEWELRY_MANAGEMENT (Jewelry Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SPORTS_COACHING (Sports Coaching) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SPORTS_TEAM_PERFORMANCE (Sports Team Performance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_FURNISHINGS (Home Furnishings) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_IMPROVEMENT_DIY (Home Improvement & DIY) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PLANT_CARE_GARDENING (Plant Care & Gardening) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LINGUISTICS_LANGUAGE (Linguistics & Language) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine REAL_ESTATE_INVESTMENT (Real Estate Investment) under CONVERSATION
+2026-07-14T02:31:37.662Z   [sort] 960/2407 scanned · 943 sorted · 102 new sub-spines · 1 failed batches
+[LLM-SPINE-SCAN] new sub-spine POLITICAL_RELATIONS (Political Relations) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BICYCLE_MAINTENANCE (Bicycle Maintenance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BICYCLE_EQUIPMENT (Bicycle Equipment) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine POLITICAL_HISTORY (Political History) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_MARKETING (Business Marketing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCT_LAUNCH_STRATEGY (Product Launch Strategy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSICAL_INSTRUMENT_SKILLS (Musical Instrument Skills) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COMPUTING_HISTORY (Computing History) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PROGRAMMING_LANGUAGES (Programming Languages) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LEGACY_SYSTEMS_MODERNIZATION (Legacy Systems Modernization) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine POLITICAL_SYSTEMS (Political Systems) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HISTORICAL_FIGURES (Historical Figures) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LANGUAGE_USAGE (Language Usage) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CAR_MAINTENANCE (Car Maintenance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSEUM_VISITS (Museum Visits) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ARCHITECTURE_URBAN_PLANNING (Architecture & Urban Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCT_INFORMATION (Product Information) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MEDIA_RECOMMENDATIONS (Media Recommendations) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_LIGHTING (Home Lighting) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CRIME_STATISTICS (Crime Statistics) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ADVERTISING_STRATEGY (Advertising Strategy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_DATA_MANAGEMENT (Business Data Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RELATIONSHIP_PLANNING (Relationship Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_SEARCH (Home Search) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PERSONAL_DEVELOPMENT (Personal Development) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SPIRITUAL_GUIDANCE (Spiritual Guidance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SPIRITUAL_REFLECTION (Spiritual Reflection) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COFFEE_PREPARATION (Coffee Preparation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCTIVITY_TOOLS (Productivity Tools) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine E_COMMERCE_MANAGEMENT (E-commerce Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine OUTDOOR_RECREATION (Outdoor Recreation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PHILOSOPHY_OF_MIND (Philosophy of Mind) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BEAUTY_PERSONAL_CARE (Beauty & Personal Care) under CONVERSATION
+2026-07-14T02:32:46.112Z   [sort] 1280/2407 scanned · 1262 sorted · 135 new sub-spines · 1 failed batches
+[LLM-SPINE-SCAN] new sub-spine ROLE_PLAYING_GAME_DESIGN (Role-Playing Game Design) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ANIMAL_FACTS (Animal Facts) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine POETRY_CREATION (Poetry Creation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CREATIVE_STORYTELLING (Creative Storytelling) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DEMOGRAPHICS_CULTURE (Demographics & Culture) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SCRIPT_WRITING (Script Writing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CREATIVE_PROJECT_PLANNING (Creative Project Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GAME_DESIGN (Game Design) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCT_DEVELOPMENT (Product Development) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine AQUARIUM_CARE (Aquarium Care) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_OFFICE_SETUP (Home Office Setup) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PROJECT_PLANNING (Project Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CHARITY_EVENTS (Charity Events) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine IMMIGRATION_PROCESS (Immigration Process) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WEATHER_FORECAST (Weather Forecast) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CAR_MAINTENANCE_REPAIR (Car Maintenance & Repair) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HUMAN_BEHAVIOR_HISTORY (Human Behavior & History) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PODCAST_RECOMMENDATIONS (Podcast Recommendations) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine APP_USAGE_TIPS (App Usage Tips) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CYBERSECURITY (Cybersecurity) under CONVERSATION
+2026-07-14T02:33:49.379Z   [sort] 1600/2407 scanned · 1582 sorted · 155 new sub-spines · 1 failed batches
+[LLM-SPINE-SCAN] new sub-spine COFFEE_SHOP_VISITS (Coffee Shop Visits) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GAME_PLAYING (Game Playing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LOCAL_BUSINESS_SUPPORT (Local Business Support) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCT_CARE (Product Care) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TELECOMMUNICATIONS_SERVICES (Telecommunications Services) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CREATIVE_WRITING_FICTION (Creative Writing (Fiction)) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FASHION_DESIGN (Fashion Design) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LANGUAGE_LEARNING (Language Learning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HISTORY_SOCIAL_ISSUES (History & Social Issues) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CURRENT_EVENTS_NEWS (Current Events & News) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine AI_ETHICS_TRUST (AI Ethics & Trust) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ART_INSPIRATION (Art Inspiration) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ART_MARKET_TRENDS (Art Market Trends) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine BUSINESS_NAMING (Business Naming) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FASHION_ADVICE (Fashion Advice) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SHOPPING_ADVICE (Shopping Advice) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PRODUCT_PURCHASE_GUIDANCE (Product Purchase Guidance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FOOD_SCIENCE (Food Science) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FOOD_PRESERVATION (Food Preservation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FOOD_INNOVATION (Food Innovation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FOOD_RESEARCH (Food Research) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine INSPIRATIONAL_STORIES (Inspirational Stories) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRAVEL_GEAR (Travel Gear) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PERSONAL_ACCESSORIES (Personal Accessories) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine POETRY_ANALYSIS (Poetry Analysis) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PHILOSOPHY_OF_LOVE (Philosophy of Love) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_PUBLISHING (Academic Publishing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ANIMAL_HUSBANDRY (Animal Husbandry) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DAIRY_FARMING (Dairy Farming) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PHOTO_ALBUM_DESIGN (Photo Album Design) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CONTENT_PROTECTION (Content Protection) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SCREENSHOT_PREVENTION (Screenshot Prevention) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine REAL_ESTATE_TECHNOLOGY (Real Estate Technology) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_ENTERTAINMENT_SETUP (Home Entertainment Setup) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ELECTRONICS_ACCESSORIES (Electronics Accessories) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WRITING_GROUPS (Writing Groups) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WRITING_EXERCISES (Writing Exercises) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FEEDBACK_SKILLS (Feedback Skills) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CONTRACT_MANAGEMENT (Contract Management) under CONVERSATION
+2026-07-14T02:34:57.066Z   [sort] 1920/2407 scanned · 1902 sorted · 194 new sub-spines · 1 failed batches
+[LLM-SPINE-SCAN] new sub-spine CONTENT_PLANNING (Content Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_CONSTRUCTION (Home Construction) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PARTY_PLANNING (Party Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CRAFTS_DIY (Crafts & DIY) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CHILDREN_ACTIVITIES (Children Activities) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ANIMAL_FARMING (Animal Farming) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_STRESS_MANAGEMENT (Academic Stress Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_MOTIVATION (Academic Motivation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_SUPPORT (Academic Support) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_BURNOUT (Academic Burnout) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DANCE_EVENTS (Dance Events) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DANCE_ATTIRE (Dance Attire) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOCIAL_EVENT_PLANNING (Social Event Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DANCE_SKILL_IMPROVEMENT (Dance Skill Improvement) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DANCE_CLASSES (Dance Classes) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FILM_TV_PRODUCTION (Film & TV Production) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine FLORAL_AESTHETICS (Floral Aesthetics) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DISASTER_MANAGEMENT (Disaster Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine STUDENT_FINANCES (Student Finances) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RELIGIOUS_BELIEFS (Religious Beliefs) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ART_CONSERVATION (Art Conservation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RELIGIOUS_INTERPRETATION (Religious Interpretation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_FINANCE (Home Finance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine HOME_PURCHASE_NEGOTIATION (Home Purchase Negotiation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine INSURANCE_MANAGEMENT (Insurance Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MUSICAL_INSTRUMENT_MAINTENANCE (Musical Instrument Maintenance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine EMPLOYEE_ONBOARDING (Employee Onboarding) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PODCAST_CONTENT_CREATION (Podcast Content Creation) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRANSPORTATION_PLANNING (Transportation Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SALES_MARKETING (Sales & Marketing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ENVIRONMENTAL_ISSUES (Environmental Issues) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine WATER_MANAGEMENT (Water Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine LEADERSHIP_DEVELOPMENT (Leadership Development) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PEER_SUPPORT_PROGRAMS (Peer Support Programs) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COMMUNITY_BUILDING (Community Building) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TEAM_BUILDING (Team Building) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DECENTRALIZED_FINANCE (Decentralized Finance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DECENTRALIZED_FINANCE_TOOLS (Decentralized Finance Tools) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DECENTRALIZED_EXCHANGES (Decentralized Exchanges) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine DECENTRALIZED_EXCHANGE_LIQUIDITY (DEX Liquidity) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_ASSESSMENT (Academic Assessment) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine CRYPTOCURRENCY_SECURITY (Cryptocurrency Security) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ADHD_MANAGEMENT (ADHD Management) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RAILWAY_HISTORY (Railway History) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine POST_WAR_ECONOMICS (Post-War Economics) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine SOFTWARE_MONITORING (Software Monitoring) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine ACADEMIC_RESOURCE_RECOMMENDATIONS (Academic Resource Recommendations) under CONVERSATION
+2026-07-14T02:36:16.194Z   [sort] 2240/2407 scanned · 2221 sorted · 241 new sub-spines · 1 failed batches
+[LLM-SPINE-SCAN] new sub-spine TRAVEL_FINANCE (Travel Finance) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRAVEL_PACKING (Travel Packing) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine MINDFULNESS_PRACTICES (Mindfulness Practices) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine RENEWABLE_ENERGY (Renewable Energy) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine GIFT_PLANNING (Gift Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine YOGA_FITNESS (Yoga & Fitness) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine NIGHT_PHOTOGRAPHY (Night Photography) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine PARENTING_SUPPORT (Parenting Support) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine COMMUNITY_INITIATIVES (Community Initiatives) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine TRAVEL_PLANNING (Travel Planning) under CONVERSATION
+[LLM-SPINE-SCAN] new sub-spine KITCHEN_ESSENTIALS (Kitchen Essentials) under CONVERSATION
+2026-07-14T02:36:55.931Z   [sort] 2407/2407 scanned · 2388 sorted · 252 new sub-spines · 1 failed batches
+2026-07-14T02:36:55.932Z   [sort] DONE in 531s — 2388/2407 sorted, 252 sub-spines created, 1 failed batches
+2026-07-14T02:36:55.952Z   [sort] top spines: COOKING_RECIPES:108 TRAVEL_LEISURE:97 SOFTWARE_DEVELOPMENT:79 HEALTH_WELLNESS:71 FITNESS_WELLBEING:69 ART_CRAFT_DESIGN:62 MUSIC_DISCUSSION:59 SOCIAL_MEDIA_MANAGEMENT:51 MENTAL_HEALTH_WELLBEING:50 DINING_EXPERIENCES:47 CULTURAL_HERITAGE:46 EDUCATION_CAREER_PLANNING:40 CREATIVE_WRITING:37 SCIENTIFIC_RESEARCH:36 HISTORICAL_EVENTS:36 HOME_ORGANIZATION:34 PLANT_CARE_GARDENING:33 READING_LITERACY:32 PET_CARE:31 MODEL_BUILDING:26 TRAVEL_ACCOMMODATION:25 SUSTAINABLE_LIVING:25 ENTERTAINMENT_MEDIA:22 WORKPLACE_COMMUNICATION:21 SPORTS_EVENTS:21 … (+229 more)
+2026-07-14T02:36:55.952Z   [sort] ⚠ 19 chunks remain unsorted (SESSION) — re-run to resume if this is large
+2026-07-14T02:36:56.015Z   [dream] 168 topical spines ≥3 chunks (36 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T02:41:06.776Z   [dream] 5/168 spines · 5 ledgers · 251s
+2026-07-14T02:45:26.811Z   [dream] 10/168 spines · 10 ledgers · 511s
+2026-07-14T02:49:11.663Z   [dream] 15/168 spines · 15 ledgers · 736s
+2026-07-14T02:52:39.800Z   [dream] 20/168 spines · 20 ledgers · 944s
+2026-07-14T02:55:04.478Z   [dream] 25/168 spines · 25 ledgers · 1088s
+2026-07-14T02:57:38.739Z   [dream] 30/168 spines · 30 ledgers · 1243s
+2026-07-14T03:00:12.169Z   [dream] 35/168 spines · 35 ledgers · 1396s
+2026-07-14T03:02:45.284Z   [dream] 40/168 spines · 40 ledgers · 1549s
+2026-07-14T03:05:32.674Z   [dream] 45/168 spines · 45 ledgers · 1717s
+2026-07-14T03:07:49.658Z   [dream] 50/168 spines · 50 ledgers · 1854s
+2026-07-14T03:09:59.302Z   [dream] 55/168 spines · 55 ledgers · 1983s
+2026-07-14T03:11:35.950Z   [dream] 60/168 spines · 60 ledgers · 2080s
+2026-07-14T03:13:27.202Z   [dream] 65/168 spines · 65 ledgers · 2191s
+2026-07-14T03:14:54.679Z   [dream] 70/168 spines · 70 ledgers · 2279s
+2026-07-14T03:16:57.345Z   [dream] 75/168 spines · 75 ledgers · 2401s
+2026-07-14T03:18:44.892Z   [dream] 80/168 spines · 80 ledgers · 2509s
+2026-07-14T03:21:17.258Z   [dream] 85/168 spines · 85 ledgers · 2661s
+2026-07-14T03:23:12.124Z   [dream] 90/168 spines · 90 ledgers · 2776s
+2026-07-14T03:25:02.857Z   [dream] 95/168 spines · 95 ledgers · 2887s
+2026-07-14T03:26:43.808Z   [dream] 100/168 spines · 100 ledgers · 2988s
+2026-07-14T03:28:45.442Z   [dream] 105/168 spines · 105 ledgers · 3109s
+2026-07-14T03:30:27.227Z   [dream] 110/168 spines · 110 ledgers · 3211s
+2026-07-14T03:32:06.889Z   [dream] 115/168 spines · 115 ledgers · 3311s
+2026-07-14T03:33:42.013Z   [dream] 120/168 spines · 120 ledgers · 3406s
+2026-07-14T03:34:52.150Z   [dream] 125/168 spines · 125 ledgers · 3476s
+2026-07-14T03:36:47.644Z   [dream] 130/168 spines · 130 ledgers · 3592s
+2026-07-14T03:38:20.511Z   [dream] 135/168 spines · 135 ledgers · 3684s
+2026-07-14T03:39:58.354Z   [dream] 140/168 spines · 140 ledgers · 3782s
+2026-07-14T03:41:41.588Z   [dream] 145/168 spines · 145 ledgers · 3886s
+2026-07-14T03:43:20.221Z   [dream] 150/168 spines · 150 ledgers · 3984s
+2026-07-14T03:44:42.516Z   [dream] 155/168 spines · 155 ledgers · 4066s
+2026-07-14T03:46:08.698Z   [dream] 160/168 spines · 160 ledgers · 4153s
+2026-07-14T03:47:16.773Z   [dream] 165/168 spines · 165 ledgers · 4221s
+2026-07-14T03:47:59.298Z   [dream] 168/168 spines · 168 ledgers · 4263s
+2026-07-14T03:47:59.322Z   [dream] DONE in 4263s — 168 new ledgers (168 total) → _fhds_0bb5a684.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 21ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m39092[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4571Mo
+[NEURAL-ENGINE] CLOUD response in 11191ms
+2026-07-14T03:48:12.052Z   [qa] BASELINE (raw, no dream)   : HIT (13s, 32src) — You attended the workshop 7 days before the team meeting. The workshop on 'Effective Communication in the Workplace' was on January 10th (Source 1, Source 2, So…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 24ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m46707[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4571Mo
+[NEURAL-ENGINE] CLOUD response in 9031ms
+2026-07-14T03:48:22.142Z   [qa] DREAM    (raw + ledgers)   : HIT (10s, 35src) — You attended the workshop 7 days before the team meeting. * **Workshop Date:** January 10th (Source 1, 2, 5, 8, 33, 34) * **Team Meeting Date:** January 17th (S…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 28ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m46707[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4571Mo
+[NEURAL-ENGINE] CLOUD response in 9771ms
+2026-07-14T03:48:33.147Z   [qa] ALL      (sorted + ledgers): HIT (11s, 35src) — You attended the workshop on "Effective Communication in the Workplace" 7 days before the team meeting. The workshop took place on January 10, 2023 (Source 1, 2…
+2026-07-14T03:48:33.155Z   ⏱ 0bb5a684 total 80min
+2026-07-14T03:48:33.156Z 
+════ SPINE→DREAM FULL-HAYSTACK ════ 2 q
+2026-07-14T03:48:33.156Z   gpt4_2312f94c    [temporal-reasoning] base=HIT  dream=MISS all=MISS · 133 ledgers · 69min
+2026-07-14T03:48:33.156Z   0bb5a684         [temporal-reasoning] base=HIT  dream=HIT  all=HIT  · 168 ledgers · 80min
+2026-07-14T03:48:33.156Z   totals: baseline 2 · dream 1 · all-engines 1

@@ -1,0 +1,483 @@
+[SYSTEM] Tool registered: scanWorkspace — "Scans the workspace root directory and lists the significant source files."
+[SYSTEM] Tool registered: analyzeArchitecture — "Analyzes the monorepo package structure and their cross-dependencies."
+[SYSTEM] Tool registered: readFile — "Reads the content of a source file and returns it for analysis."
+[34m[EMBEDDING-KERNEL][0m Provider registered: [36mharness:e5[0m | priority=[33m0[0m | dim=[33m768D[0m | offline=[32myes[0m
+[NEURAL-ENGINE] Provider registered: CLOUD — vertex:gemini-2.5-pro (0Mo RAM)
+2026-07-14T14:47:51.789Z SPINE→DREAM×FULL-HAYSTACK — 8 q · min=3 limit=0 batch=16 model=gemini-2.5-pro · suffix=slice
+2026-07-14T14:47:51.790Z 
+━━ 0a995998 [multi-session] How many items of clothing do I need to pick up or return from a store?
+2026-07-14T14:47:51.790Z    expected: 3
+2026-07-14T14:47:51.947Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+(node:262652) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+2026-07-14T14:47:51.949Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T14:47:51.955Z   [sort] top spines: TRAVEL_PLANNING:145 COOKING_RECIPES:134 BUSINESS_MARKETING:72 ROUTINES_HABITS:57 ENTERTAINMENT_EVENTS:54 ENVIRONMENTAL_ISSUES:53 FITNESS_CLASSES:49 EDUCATION_CAREER:49 TECHNOLOGY_GAMING:47 ARTS_CRAFTS:46 HOME_DECOR:45 HEALTH_NUTRITION:44 FICTIONAL_NARRATIVES:42 ACADEMIC_DISCUSSIONS:42 LANGUAGE_GRAMMAR:38 HOME_ORGANIZATION:38 SPIRITUAL_RELIGIOUS:34 SOCIAL_MEDIA_PLATFORMS:33 NATURE_OUTDOORS:33 MUSIC_DISCUSSIONS:33 EMPLOYMENT_HR:33 SHOPPING_DEALS:29 RESTAURANT_CHOICES:29 GROCERY_MEAL_PLANNING:28 GIFT_PLANNING:28 … (+152 more)
+2026-07-14T14:47:52.104Z   [dream] 139 topical spines ≥3 chunks (10 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T14:51:28.806Z   [dream] 5/157 jobs · 5 ledgers · 217s
+2026-07-14T14:55:16.937Z   [dream] 10/157 jobs · 10 ledgers · 445s
+2026-07-14T14:58:04.518Z   [dream] 15/157 jobs · 15 ledgers · 612s
+2026-07-14T15:00:13.114Z   [dream] 20/157 jobs · 20 ledgers · 741s
+2026-07-14T15:02:24.629Z   [dream] 25/157 jobs · 25 ledgers · 873s
+2026-07-14T15:05:05.566Z   [dream] 30/157 jobs · 30 ledgers · 1033s
+2026-07-14T15:08:40.705Z   [dream] 35/157 jobs · 35 ledgers · 1249s
+2026-07-14T15:12:19.168Z   [dream] 40/157 jobs · 40 ledgers · 1467s
+2026-07-14T15:15:25.438Z   [dream] 45/157 jobs · 45 ledgers · 1653s
+2026-07-14T15:17:58.592Z   [dream] 50/157 jobs · 50 ledgers · 1806s
+2026-07-14T15:20:39.927Z   [dream] 55/157 jobs · 55 ledgers · 1968s
+2026-07-14T15:22:32.178Z   [dream] 60/157 jobs · 60 ledgers · 2080s
+2026-07-14T15:24:23.639Z   [dream] 65/157 jobs · 65 ledgers · 2192s
+2026-07-14T15:26:45.937Z   [dream] 70/157 jobs · 70 ledgers · 2334s
+2026-07-14T15:29:16.880Z   [dream] 75/157 jobs · 75 ledgers · 2485s
+2026-07-14T15:31:37.865Z   [dream] 80/157 jobs · 80 ledgers · 2626s
+2026-07-14T15:33:18.302Z   [dream] 85/157 jobs · 85 ledgers · 2726s
+2026-07-14T15:35:28.955Z   [dream] 90/157 jobs · 90 ledgers · 2857s
+2026-07-14T15:37:23.307Z   [dream] 95/157 jobs · 95 ledgers · 2971s
+2026-07-14T15:39:32.463Z   [dream] 100/157 jobs · 100 ledgers · 3100s
+2026-07-14T15:41:14.050Z   [dream] 105/157 jobs · 105 ledgers · 3202s
+2026-07-14T15:42:51.380Z   [dream] 110/157 jobs · 110 ledgers · 3299s
+2026-07-14T15:45:10.151Z   [dream] 115/157 jobs · 115 ledgers · 3438s
+2026-07-14T15:47:04.101Z   [dream] 120/157 jobs · 120 ledgers · 3552s
+2026-07-14T15:48:56.433Z   [dream] 125/157 jobs · 125 ledgers · 3664s
+2026-07-14T15:50:24.920Z   [dream] 130/157 jobs · 130 ledgers · 3753s
+2026-07-14T15:51:50.046Z   [dream] 135/157 jobs · 135 ledgers · 3838s
+2026-07-14T15:54:12.583Z   [dream] 140/157 jobs · 140 ledgers · 3980s
+2026-07-14T15:56:06.900Z   [dream] 145/157 jobs · 145 ledgers · 4095s
+2026-07-14T15:57:52.879Z   [dream] 150/157 jobs · 150 ledgers · 4201s
+2026-07-14T15:59:55.714Z   [dream] 155/157 jobs · 155 ledgers · 4324s
+2026-07-14T16:00:33.172Z   [dream] 157/157 jobs · 157 ledgers · 4361s
+2026-07-14T16:00:33.194Z   [dream] DONE in 4361s — 157 new ledgers (157 total) → _fhds_0a995998.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 19ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m73991[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4999Mo
+[NEURAL-ENGINE] CLOUD response in 15804ms
+2026-07-14T16:00:51.137Z   [qa] DREAM    (raw + ledgers)   : MISS (18s, 35src) — Based on the provided memory, you have a total of 2 clothing items to either pick up from or return to a store. * **Pick Up (1):** 1 pair of exchanged (larger) …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 20ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m73991[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4999Mo
+[NEURAL-ENGINE] CLOUD response in 15957ms
+2026-07-14T16:01:08.434Z   [qa] ALL      (sorted + ledgers): HIT (17s, 35src) — Based on the memory context, you have a total of 3 clothing items to pick up or return. * **1 pair of boots (to pick up):** The new, larger pair from Zara resul…
+2026-07-14T16:01:08.454Z   ⏱ 0a995998 total 73min
+2026-07-14T16:01:08.454Z 
+━━ 6d550036 [multi-session] How many projects have I led or am currently leading?
+2026-07-14T16:01:08.454Z    expected: 2
+2026-07-14T16:01:08.525Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T16:01:08.525Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T16:01:08.530Z   [sort] top spines: FOOD_DINING:128 WELLBEING:125 TRAVEL_PLANNING:122 BOOKS_LITERATURE:103 MARKETING_STRATEGY:78 ARTS_CULTURE:69 HISTORY_CULTURE:60 FITNESS_WELLNESS:59 PERSONAL_PRODUCTIVITY:58 SOFTWARE_DEVELOPMENT:51 RECREATIONAL_ACTIVITIES:51 ACADEMIC_PROJECTS:48 BUSINESS_FINANCE:47 ENTERTAINMENT_MEDIA:46 CAREER_DEVELOPMENT:45 HOME_MAINTENANCE:43 CULTURAL_EXPLORATION:41 SPIRITUALITY_RELIGION:40 EVENT_PLANNING:38 SOCIAL_RELATIONSHIPS:37 GARDENING_PLANTS:36 PERFORMING_ARTS:34 HOME_ORGANIZATION:33 MEDICAL_RESEARCH:32 MUSIC_INSTRUMENTS:30 … (+100 more)
+2026-07-14T16:01:08.666Z   [dream] 110 topical spines ≥3 chunks (2 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T16:04:14.843Z   [dream] 5/134 jobs · 5 ledgers · 186s
+2026-07-14T16:07:15.948Z   [dream] 10/134 jobs · 10 ledgers · 367s
+2026-07-14T16:10:27.151Z   [dream] 15/134 jobs · 15 ledgers · 558s
+2026-07-14T16:13:44.470Z   [dream] 20/134 jobs · 20 ledgers · 756s
+2026-07-14T16:16:19.872Z   [dream] 25/134 jobs · 25 ledgers · 911s
+2026-07-14T16:18:56.831Z   [dream] 30/134 jobs · 30 ledgers · 1068s
+2026-07-14T16:21:24.302Z   [dream] 35/134 jobs · 35 ledgers · 1216s
+2026-07-14T16:24:26.197Z   [dream] 40/134 jobs · 40 ledgers · 1398s
+2026-07-14T16:27:38.747Z   [dream] 45/134 jobs · 45 ledgers · 1590s
+2026-07-14T16:30:20.897Z   [dream] 50/134 jobs · 50 ledgers · 1752s
+2026-07-14T16:32:54.483Z   [dream] 55/134 jobs · 55 ledgers · 1906s
+2026-07-14T16:35:26.311Z   [dream] 60/134 jobs · 60 ledgers · 2058s
+2026-07-14T16:38:11.695Z   [dream] 65/134 jobs · 65 ledgers · 2223s
+2026-07-14T16:40:57.127Z   [dream] 70/134 jobs · 70 ledgers · 2388s
+2026-07-14T16:43:33.398Z   [dream] 75/134 jobs · 75 ledgers · 2545s
+2026-07-14T16:45:48.084Z   [dream] 80/134 jobs · 80 ledgers · 2679s
+2026-07-14T16:48:52.323Z   [dream] 85/134 jobs · 85 ledgers · 2864s
+2026-07-14T16:51:20.605Z   [dream] 90/134 jobs · 90 ledgers · 3012s
+2026-07-14T16:53:51.622Z   [dream] 95/134 jobs · 95 ledgers · 3163s
+2026-07-14T16:55:38.254Z   [dream] 100/134 jobs · 100 ledgers · 3270s
+2026-07-14T16:57:32.905Z   [dream] 105/134 jobs · 105 ledgers · 3384s
+2026-07-14T16:59:36.573Z   [dream] 110/134 jobs · 110 ledgers · 3508s
+2026-07-14T17:01:00.835Z   [dream] 115/134 jobs · 115 ledgers · 3592s
+2026-07-14T17:02:42.546Z   [dream] 120/134 jobs · 120 ledgers · 3694s
+2026-07-14T17:04:33.216Z   [dream] 125/134 jobs · 125 ledgers · 3805s
+2026-07-14T17:06:02.589Z   [dream] 130/134 jobs · 130 ledgers · 3894s
+2026-07-14T17:07:18.961Z   [dream] 134/134 jobs · 134 ledgers · 3970s
+2026-07-14T17:07:18.968Z   [dream] DONE in 3970s — 134 new ledgers (134 total) → _fhds_6d550036.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 21ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m50439[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4230Mo
+[NEURAL-ENGINE] CLOUD response in 33788ms
+2026-07-14T17:07:57.290Z   [qa] DREAM    (raw + ledgers)   : MISS (38s, 35src) — Based on the memory context, you are leading or responsible for a total of 9 projects. Here is the enumeration of each project: * **5 Marketing Projects:** You …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 19ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m50439[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4230Mo
+[NEURAL-ENGINE] CLOUD response in 24776ms
+2026-07-14T17:08:23.648Z   [qa] ALL      (sorted + ledgers): MISS (26s, 35src) — Based on the provided memory context, you are leading or responsible for a total of 8 projects. These projects are: * **5 marketing projects** that you need to …
+2026-07-14T17:08:23.654Z   ⏱ 6d550036 total 67min
+2026-07-14T17:08:23.654Z 
+━━ gpt4_59c863d7 [multi-session] How many model kits have I worked on or bought?
+2026-07-14T17:08:23.654Z    expected: I have worked on or bought five model kits. The scales of the models are: Revell F-15 Eagle (scale n…
+2026-07-14T17:08:23.730Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T17:08:23.730Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T17:08:23.736Z   [sort] top spines: TRAVEL_PLANNING:125 COOKING_RECIPES:95 HEALTH_WELLNESS:80 BOOK_RECOMMENDATIONS:74 MODEL_BUILDING:62 ACADEMIC_RESEARCH:45 COLLECTIBLES_HOBBIES:43 LANGUAGE_STUDY:40 OUTDOOR_ACTIVITIES:39 PHOTOGRAPHY_TIPS:38 FILM_STUDY:38 ACTING_PERFORMANCE:38 AI_APPLICATIONS:36 CAR_MAINTENANCE:34 CHARITY_EVENTS:31 HOME_ORGANIZATION:30 FITNESS_TRAINING:30 HOME_MAINTENANCE:29 HOME_GARDENING:29 SUSTAINABLE_LIVING:28 LANGUAGE_CULTURE:28 TECH_GADGETS:27 HOME_DECOR:27 SPIRITUAL_PRACTICES:25 RESTAURANT_RECOMMENDATIONS:25 … (+222 more)
+2026-07-14T17:08:23.885Z   [dream] 190 topical spines ≥3 chunks (0 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T17:12:00.379Z   [dream] 5/200 jobs · 5 ledgers · 216s
+2026-07-14T17:15:02.772Z   [dream] 10/200 jobs · 10 ledgers · 399s
+2026-07-14T17:18:11.318Z   [dream] 15/200 jobs · 15 ledgers · 587s
+2026-07-14T17:20:35.438Z   [dream] 20/200 jobs · 20 ledgers · 732s
+2026-07-14T17:23:24.965Z   [dream] 25/200 jobs · 25 ledgers · 901s
+2026-07-14T17:25:49.740Z   [dream] 30/200 jobs · 30 ledgers · 1046s
+2026-07-14T17:28:35.294Z   [dream] 35/200 jobs · 35 ledgers · 1211s
+2026-07-14T17:31:45.420Z   [dream] 40/200 jobs · 40 ledgers · 1402s
+2026-07-14T17:35:04.136Z   [dream] 45/200 jobs · 45 ledgers · 1600s
+2026-07-14T17:37:59.395Z   [dream] 50/200 jobs · 50 ledgers · 1775s
+2026-07-14T17:40:21.917Z   [dream] 55/200 jobs · 55 ledgers · 1918s
+2026-07-14T17:42:24.256Z   [dream] 60/200 jobs · 60 ledgers · 2040s
+2026-07-14T17:45:24.090Z   [dream] 65/200 jobs · 65 ledgers · 2220s
+2026-07-14T17:46:55.737Z   [dream] 70/200 jobs · 70 ledgers · 2312s
+2026-07-14T17:49:07.891Z   [dream] 75/200 jobs · 75 ledgers · 2444s
+2026-07-14T17:50:52.340Z   [dream] 80/200 jobs · 80 ledgers · 2548s
+2026-07-14T17:52:30.437Z   [dream] 85/200 jobs · 85 ledgers · 2647s
+2026-07-14T17:54:14.426Z   [dream] 90/200 jobs · 90 ledgers · 2751s
+2026-07-14T17:56:45.351Z   [dream] 95/200 jobs · 95 ledgers · 2901s
+2026-07-14T17:58:53.721Z   [dream] 100/200 jobs · 100 ledgers · 3030s
+2026-07-14T18:01:06.513Z   [dream] 105/200 jobs · 105 ledgers · 3163s
+2026-07-14T18:03:52.245Z   [dream] 110/200 jobs · 110 ledgers · 3328s
+2026-07-14T18:06:09.551Z   [dream] 115/200 jobs · 115 ledgers · 3466s
+2026-07-14T18:07:40.320Z   [dream] 120/200 jobs · 120 ledgers · 3556s
+2026-07-14T18:10:05.121Z   [dream] 125/200 jobs · 125 ledgers · 3701s
+2026-07-14T18:12:13.375Z   [dream] 130/200 jobs · 130 ledgers · 3829s
+2026-07-14T18:14:08.987Z   [dream] 135/200 jobs · 135 ledgers · 3945s
+2026-07-14T18:16:09.768Z   [dream] 140/200 jobs · 140 ledgers · 4066s
+2026-07-14T18:18:19.802Z   [dream] 145/200 jobs · 145 ledgers · 4196s
+2026-07-14T18:20:27.517Z   [dream] 150/200 jobs · 150 ledgers · 4324s
+2026-07-14T18:21:51.464Z   [dream] 155/200 jobs · 155 ledgers · 4408s
+2026-07-14T18:23:27.979Z   [dream] 160/200 jobs · 160 ledgers · 4504s
+2026-07-14T18:25:12.002Z   [dream] 165/200 jobs · 165 ledgers · 4608s
+2026-07-14T18:26:57.511Z   [dream] 170/200 jobs · 170 ledgers · 4714s
+2026-07-14T18:28:53.556Z   [dream] 175/200 jobs · 175 ledgers · 4830s
+2026-07-14T18:30:18.420Z   [dream] 180/200 jobs · 180 ledgers · 4915s
+2026-07-14T18:31:34.874Z   [dream] 185/200 jobs · 185 ledgers · 4991s
+2026-07-14T18:32:54.188Z   [dream] 190/200 jobs · 190 ledgers · 5070s
+2026-07-14T18:34:48.950Z   [dream] 195/200 jobs · 195 ledgers · 5185s
+2026-07-14T18:36:04.190Z   [dream] 200/200 jobs · 200 ledgers · 5260s
+2026-07-14T18:36:04.223Z   [dream] DONE in 5260s — 200 new ledgers (200 total) → _fhds_gpt4_59c863d7.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 18ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m52572[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 2409Mo
+[NEURAL-ENGINE] CLOUD response in 26043ms
+2026-07-14T18:36:31.948Z   [qa] DREAM    (raw + ledgers)   : MISS (28s, 35src) — Based on the memory context, you have worked on or bought a total of 7 model kits. Here is the enumeration of each kit: 1. **Tamiya 1/48 scale Spitfire Mk.V:** …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 19ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m52572[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 2409Mo
+[NEURAL-ENGINE] CLOUD response in 23228ms
+2026-07-14T18:36:56.803Z   [qa] ALL      (sorted + ledgers): MISS (25s, 35src) — Based on the memory context, you have worked on or bought a total of 7 model kits. They are: * **Tamiya 1/48 scale Spitfire Mk.V** (finished) (Source 14) * **Re…
+2026-07-14T18:36:56.820Z   ⏱ gpt4_59c863d7 total 89min
+2026-07-14T18:36:56.820Z 
+━━ b5ef892d [multi-session] How many days did I spend on camping trips in the United States this year?
+2026-07-14T18:36:56.820Z    expected: 8 days.
+2026-07-14T18:36:56.889Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T18:36:56.890Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T18:36:56.894Z   [sort] top spines: HEALTH_FITNESS:134 TRAVEL_PLANNING:129 CULINARY_EXPLORATION:123 MEDIA_RECOMMENDATIONS:106 EDUCATION_DISCUSSION:76 SOCIAL_MEDIA_STRATEGY:60 CAREER_DEVELOPMENT:53 ENVIRONMENTAL_DISCUSSION:48 SOFTWARE_DEVELOPMENT:46 CULINARY_PREPARATION:46 HOME_ORGANIZATION:45 HISTORICAL_DISCUSSION:44 SELF_IMPROVEMENT:41 HOBBIES_RECREATION:40 PERSONAL_CARE:38 PHOTOGRAPHY_DISCUSSION:36 FASHION_STYLE:36 MARKETING_STRATEGY:35 ECO_FRIENDLY_LIVING:34 READING_HABITS:33 PHOTOGRAPHY_TECH:32 SOCIAL_INTERACTIONS:31 CREATIVE_WRITING:31 HOME_MAINTENANCE:30 ART_DISCUSSION:29 … (+121 more)
+2026-07-14T18:36:57.033Z   [dream] 130 topical spines ≥3 chunks (0 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T18:39:44.339Z   [dream] 5/150 jobs · 5 ledgers · 167s
+2026-07-14T18:43:23.117Z   [dream] 10/150 jobs · 10 ledgers · 386s
+2026-07-14T18:47:30.685Z   [dream] 15/150 jobs · 15 ledgers · 634s
+2026-07-14T18:51:10.859Z   [dream] 20/150 jobs · 20 ledgers · 854s
+2026-07-14T18:53:55.934Z   [dream] 25/150 jobs · 25 ledgers · 1019s
+2026-07-14T18:56:13.109Z   [dream] 30/150 jobs · 30 ledgers · 1156s
+2026-07-14T18:58:16.276Z   [dream] 35/150 jobs · 35 ledgers · 1279s
+2026-07-14T19:01:06.432Z   [dream] 40/150 jobs · 40 ledgers · 1449s
+2026-07-14T19:04:09.023Z   [dream] 45/150 jobs · 45 ledgers · 1632s
+2026-07-14T19:07:23.165Z   [dream] 50/150 jobs · 50 ledgers · 1826s
+2026-07-14T19:10:33.187Z   [dream] 55/150 jobs · 55 ledgers · 2016s
+2026-07-14T19:13:00.335Z   [dream] 60/150 jobs · 60 ledgers · 2163s
+2026-07-14T19:15:54.418Z   [dream] 65/150 jobs · 65 ledgers · 2337s
+2026-07-14T19:18:20.195Z   [dream] 70/150 jobs · 70 ledgers · 2483s
+2026-07-14T19:20:38.047Z   [dream] 75/150 jobs · 75 ledgers · 2621s
+2026-07-14T19:22:59.646Z   [dream] 80/150 jobs · 80 ledgers · 2763s
+2026-07-14T19:25:06.075Z   [dream] 85/150 jobs · 85 ledgers · 2889s
+2026-07-14T19:27:00.902Z   [dream] 90/150 jobs · 90 ledgers · 3004s
+2026-07-14T19:30:00.381Z   [dream] 95/150 jobs · 95 ledgers · 3183s
+2026-07-14T19:31:24.386Z   [dream] 100/150 jobs · 100 ledgers · 3267s
+2026-07-14T19:33:34.274Z   [dream] 105/150 jobs · 105 ledgers · 3397s
+2026-07-14T19:35:22.427Z   [dream] 110/150 jobs · 110 ledgers · 3505s
+2026-07-14T19:37:38.252Z   [dream] 115/150 jobs · 115 ledgers · 3641s
+2026-07-14T19:39:27.352Z   [dream] 120/150 jobs · 120 ledgers · 3750s
+2026-07-14T19:41:05.559Z   [dream] 125/150 jobs · 125 ledgers · 3849s
+2026-07-14T19:43:10.365Z   [dream] 130/150 jobs · 130 ledgers · 3973s
+2026-07-14T19:45:10.024Z   [dream] 135/150 jobs · 135 ledgers · 4093s
+2026-07-14T19:46:59.324Z   [dream] 140/150 jobs · 140 ledgers · 4202s
+2026-07-14T19:48:53.335Z   [dream] 145/150 jobs · 145 ledgers · 4316s
+2026-07-14T19:50:25.214Z   [dream] 150/150 jobs · 150 ledgers · 4408s
+2026-07-14T19:50:25.254Z   [dream] DONE in 4408s — 150 new ledgers (150 total) → _fhds_b5ef892d.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 39ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65746[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3733Mo
+[NEURAL-ENGINE] CLOUD response in 14013ms
+2026-07-14T19:50:41.476Z   [qa] DREAM    (raw + ledgers)   : HIT (16s, 35src) — Based on the memory context, you spent a total of 8 days on camping trips in the United States this year. This total is derived from the following trips: * **5 …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 19ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65746[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3733Mo
+[NEURAL-ENGINE] CLOUD response in 19599ms
+2026-07-14T19:51:02.656Z   [qa] ALL      (sorted + ledgers): HIT (21s, 35src) — Based on the provided memory, you spent a total of 8 days on camping trips in the United States this year. This total is derived from the following instances: *…
+2026-07-14T19:51:02.673Z   ⏱ b5ef892d total 74min
+2026-07-14T19:51:02.673Z 
+━━ e831120c [multi-session] How many weeks did it take me to watch all the Marvel Cinematic Universe movies and the main Star Wa…
+2026-07-14T19:51:02.673Z    expected: 3.5 weeks
+2026-07-14T19:51:02.761Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T19:51:02.761Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T19:51:02.767Z   [sort] top spines: TRAVEL_TOURISM:153 FOOD_DRINK:87 CAREER_DEVELOPMENT:81 COOKING_RECIPES:78 FITNESS_WELLBEING:76 ART_CRAFTS:70 SOFTWARE_DEVELOPMENT:69 SOCIETAL_ISSUES:59 SPIRITUALITY_METAPHYSICS:56 ANTIQUES_COLLECTIBLES:54 MUSIC_ENTERTAINMENT:53 HOME_ORGANIZATION:43 BUSINESS_STRATEGY:43 SOCIAL_MEDIA_STRATEGY:40 HOME_IMPROVEMENT:40 EDUCATION_LEARNING:40 ANIMAL_CARE:40 PERFORMING_ARTS:38 FASHION_STYLE:37 BOOKS_LITERATURE:36 FICTIONAL_NARRATIVES:34 PRODUCTIVITY_ROUTINES:32 MARKETING_ADVERTISING:32 MODEL_BUILDING:31 HISTORY_GEOPOLITICS:31 … (+102 more)
+2026-07-14T19:51:02.915Z   [dream] 108 topical spines ≥3 chunks (3 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T19:54:36.481Z   [dream] 5/125 jobs · 5 ledgers · 214s
+2026-07-14T19:56:59.189Z   [dream] 10/125 jobs · 10 ledgers · 356s
+2026-07-14T19:59:43.492Z   [dream] 15/125 jobs · 15 ledgers · 521s
+2026-07-14T20:02:38.155Z   [dream] 20/125 jobs · 20 ledgers · 695s
+2026-07-14T20:05:27.385Z   [dream] 25/125 jobs · 25 ledgers · 864s
+2026-07-14T20:07:30.084Z   [dream] 30/125 jobs · 30 ledgers · 987s
+2026-07-14T20:10:41.353Z   [dream] 35/125 jobs · 35 ledgers · 1178s
+2026-07-14T20:13:53.507Z   [dream] 40/125 jobs · 40 ledgers · 1371s
+2026-07-14T20:17:08.039Z   [dream] 45/125 jobs · 45 ledgers · 1565s
+2026-07-14T20:19:56.391Z   [dream] 50/125 jobs · 50 ledgers · 1733s
+2026-07-14T20:22:48.567Z   [dream] 55/125 jobs · 55 ledgers · 1906s
+2026-07-14T20:25:41.625Z   [dream] 60/125 jobs · 60 ledgers · 2079s
+2026-07-14T20:29:18.662Z   [dream] 65/125 jobs · 65 ledgers · 2296s
+2026-07-14T20:32:24.290Z   [dream] 70/125 jobs · 70 ledgers · 2481s
+2026-07-14T20:35:43.694Z   [dream] 75/125 jobs · 75 ledgers · 2681s
+2026-07-14T20:37:57.049Z   [dream] 80/125 jobs · 80 ledgers · 2814s
+2026-07-14T20:39:36.220Z   [dream] 85/125 jobs · 85 ledgers · 2913s
+2026-07-14T20:41:00.585Z   [dream] 90/125 jobs · 90 ledgers · 2998s
+2026-07-14T20:42:40.185Z   [dream] 95/125 jobs · 95 ledgers · 3097s
+2026-07-14T20:44:49.569Z   [dream] 100/125 jobs · 100 ledgers · 3227s
+2026-07-14T20:46:10.234Z   [dream] 105/125 jobs · 105 ledgers · 3307s
+2026-07-14T20:47:58.087Z   [dream] 110/125 jobs · 110 ledgers · 3415s
+2026-07-14T20:50:30.453Z   [dream] 115/125 jobs · 115 ledgers · 3568s
+2026-07-14T20:52:14.958Z   [dream] 120/125 jobs · 120 ledgers · 3672s
+2026-07-14T20:53:27.774Z   [dream] 125/125 jobs · 125 ledgers · 3745s
+2026-07-14T20:53:27.802Z   [dream] DONE in 3745s — 125 new ledgers (125 total) → _fhds_e831120c.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 31ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m66032[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 2256Mo
+[NEURAL-ENGINE] CLOUD response in 12728ms
+2026-07-14T20:53:42.365Z   [qa] DREAM    (raw + ledgers)   : HIT (15s, 35src) — Based on the memory context, it took you a total of 3.5 weeks to watch both sets of films. This is calculated as follows: * **Marvel Cinematic Universe:** You w…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 28ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m66032[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 2256Mo
+[NEURAL-ENGINE] CLOUD response in 12854ms
+2026-07-14T20:53:56.852Z   [qa] ALL      (sorted + ledgers): HIT (14s, 35src) — Based on the memory context, it took a total of 3.5 weeks to watch the Marvel Cinematic Universe movies and the main Star Wars films. This is composed of: * **2…
+2026-07-14T20:53:56.871Z   ⏱ e831120c total 63min
+2026-07-14T20:53:56.871Z 
+━━ 3a704032 [multi-session] How many plants did I acquire in the last month?
+2026-07-14T20:53:56.871Z    expected: 3
+2026-07-14T20:53:57.043Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T20:53:57.043Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T20:53:57.053Z   [sort] top spines: TRAVEL_PLANNING:157 COOKING_RECIPES:153 HEALTH_WELLNESS:86 SOCIAL_MEDIA_STRATEGY:78 HOME_GARDEN:60 COLLECTIBLES_HOBBIES:56 FITNESS_TRAINING:55 SUSTAINABILITY_PRACTICES:54 ACADEMIC_RESEARCH:52 AI_ML_RESEARCH:50 PHOTOGRAPHY:49 FASHION_STYLE:42 PARTY_PLANNING:41 GOVERNANCE_LAW_ENFORCEMENT:39 BUSINESS_STRATEGY:39 DAILY_PLANNING:34 SHOPPING_BEAUTY:33 CONTENT_CREATION:32 CAREER_GUIDANCE:32 CAREER_DEVELOPMENT_PLANNING:32 MUSIC_ENTERTAINMENT:31 TECHNOLOGY_ASSISTANCE:30 FINANCIAL_MANAGEMENT:30 ECO_FRIENDLY_LIVING:29 TRAVEL_ACCOMMODATION:27 … (+146 more)
+2026-07-14T20:53:57.343Z   [dream] 141 topical spines ≥3 chunks (2 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T20:57:51.707Z   [dream] 5/159 jobs · 5 ledgers · 234s
+2026-07-14T21:01:14.518Z   [dream] 10/159 jobs · 10 ledgers · 437s
+2026-07-14T21:04:00.717Z   [dream] 15/159 jobs · 15 ledgers · 603s
+2026-07-14T21:06:27.568Z   [dream] 20/159 jobs · 20 ledgers · 750s
+2026-07-14T21:09:20.060Z   [dream] 25/159 jobs · 25 ledgers · 923s
+2026-07-14T21:12:06.047Z   [dream] 30/159 jobs · 30 ledgers · 1089s
+2026-07-14T21:15:31.852Z   [dream] 35/159 jobs · 35 ledgers · 1294s
+2026-07-14T21:19:16.922Z   [dream] 40/159 jobs · 40 ledgers · 1520s
+2026-07-14T21:22:40.363Z   [dream] 45/159 jobs · 45 ledgers · 1723s
+2026-07-14T21:25:25.342Z   [dream] 50/159 jobs · 50 ledgers · 1888s
+2026-07-14T21:28:01.953Z   [dream] 55/159 jobs · 55 ledgers · 2045s
+2026-07-14T21:30:55.368Z   [dream] 60/159 jobs · 60 ledgers · 2218s
+2026-07-14T21:33:14.503Z   [dream] 65/159 jobs · 65 ledgers · 2357s
+2026-07-14T21:35:29.001Z   [dream] 70/159 jobs · 70 ledgers · 2492s
+2026-07-14T21:37:47.106Z   [dream] 75/159 jobs · 75 ledgers · 2630s
+2026-07-14T21:40:10.977Z   [dream] 80/159 jobs · 80 ledgers · 2774s
+2026-07-14T21:42:25.032Z   [dream] 85/159 jobs · 85 ledgers · 2908s
+2026-07-14T21:44:39.064Z   [dream] 90/159 jobs · 90 ledgers · 3042s
+2026-07-14T21:46:34.959Z   [dream] 95/159 jobs · 95 ledgers · 3158s
+2026-07-14T21:48:59.780Z   [dream] 100/159 jobs · 100 ledgers · 3302s
+2026-07-14T21:50:50.095Z   [dream] 105/159 jobs · 105 ledgers · 3413s
+2026-07-14T21:52:53.617Z   [dream] 110/159 jobs · 110 ledgers · 3536s
+2026-07-14T21:54:29.850Z   [dream] 115/159 jobs · 115 ledgers · 3632s
+2026-07-14T21:56:01.139Z   [dream] 120/159 jobs · 120 ledgers · 3724s
+2026-07-14T21:57:31.891Z   [dream] 125/159 jobs · 125 ledgers · 3815s
+2026-07-14T21:59:27.206Z   [dream] 130/159 jobs · 130 ledgers · 3930s
+2026-07-14T22:01:18.566Z   [dream] 135/159 jobs · 135 ledgers · 4041s
+2026-07-14T22:03:30.297Z   [dream] 140/159 jobs · 140 ledgers · 4173s
+2026-07-14T22:05:18.686Z   [dream] 145/159 jobs · 145 ledgers · 4281s
+2026-07-14T22:06:43.223Z   [dream] 150/159 jobs · 150 ledgers · 4366s
+2026-07-14T22:07:51.656Z   [dream] 155/159 jobs · 155 ledgers · 4434s
+2026-07-14T22:09:09.170Z   [dream] 159/159 jobs · 159 ledgers · 4512s
+2026-07-14T22:09:09.179Z   [dream] DONE in 4512s — 159 new ledgers (159 total) → _fhds_3a704032.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 21ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m46780[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4078Mo
+[NEURAL-ENGINE] CLOUD response in 21126ms
+2026-07-14T22:09:32.085Z   [qa] DREAM    (raw + ledgers)   : MISS (23s, 35src) — Based on the provided memory context, you acquired a total of 2 plants in the last month (from 2023/04/28 to 2023/05/28). The instances are: * **1 Peace Lily:**…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 16ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m46780[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4078Mo
+[NEURAL-ENGINE] CLOUD response in 18741ms
+2026-07-14T22:09:52.334Z   [qa] ALL      (sorted + ledgers): MISS (20s, 35src) — Based on the memory context, you acquired a total of 2 plants in the last month. * **1 Peace Lily:** Acquired approx. 2023/05/12 (Source 34). * **1 Succulent:**…
+2026-07-14T22:09:52.340Z   ⏱ 3a704032 total 76min
+2026-07-14T22:09:52.340Z 
+━━ gpt4_d84a3211 [multi-session] How much total money have I spent on bike-related expenses since the start of the year?
+2026-07-14T22:09:52.340Z    expected: $185
+2026-07-14T22:09:52.411Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T22:09:52.411Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T22:09:52.416Z   [sort] top spines: CULINARY_ARTS:145 HEALTH_WELLBEING:135 TRAVEL_PLANNING:79 LITERATURE_ARTS:70 CAREER_DEVELOPMENT:67 DIGITAL_MARKETING:66 TRAVEL_DESTINATIONS:63 FITNESS_TRAINING:60 PHOTOGRAPHY_TIPS:58 ENTERTAINMENT_MEDIA:58 SOCIAL_MEDIA:57 HOME_IMPROVEMENT:49 CREATIVE_WRITING:49 ENVIRONMENTAL_SUSTAINABILITY:48 HISTORY_GEOPOLITICS:44 SOFTWARE_DEVELOPMENT:40 EDUCATION_PEDAGOGY:38 COMPUTER_SCIENCE:38 MUSIC_INSTRUMENTS:37 PRODUCTIVITY_PLANNING:35 PRODUCT_RECOMMENDATIONS:34 DATA_PRIVACY_REGULATIONS:31 GAMING_STRATEGIES:30 FINANCIAL_PLANNING:30 BUSINESS_OPERATIONS:28 … (+135 more)
+2026-07-14T22:09:52.566Z   [dream] 129 topical spines ≥3 chunks (0 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T22:13:27.556Z   [dream] 5/148 jobs · 5 ledgers · 215s
+2026-07-14T22:16:28.246Z   [dream] 10/148 jobs · 10 ledgers · 396s
+2026-07-14T22:21:36.201Z   [dream] 15/148 jobs · 15 ledgers · 704s
+2026-07-14T22:24:53.579Z   [dream] 20/148 jobs · 20 ledgers · 901s
+2026-07-14T22:28:15.521Z   [dream] 25/148 jobs · 25 ledgers · 1103s
+2026-07-14T22:30:18.664Z   [dream] 30/148 jobs · 30 ledgers · 1226s
+2026-07-14T22:33:13.233Z   [dream] 35/148 jobs · 35 ledgers · 1401s
+2026-07-14T22:36:42.590Z   [dream] 40/148 jobs · 40 ledgers · 1610s
+2026-07-14T22:39:40.679Z   [dream] 45/148 jobs · 45 ledgers · 1788s
+2026-07-14T22:42:20.728Z   [dream] 50/148 jobs · 50 ledgers · 1948s
+2026-07-14T22:45:01.932Z   [dream] 55/148 jobs · 55 ledgers · 2109s
+2026-07-14T22:48:05.591Z   [dream] 60/148 jobs · 60 ledgers · 2293s
+2026-07-14T22:50:09.774Z   [dream] 65/148 jobs · 65 ledgers · 2417s
+2026-07-14T22:52:44.899Z   [dream] 70/148 jobs · 70 ledgers · 2572s
+2026-07-14T22:55:09.450Z   [dream] 75/148 jobs · 75 ledgers · 2717s
+2026-07-14T22:57:06.615Z   [dream] 80/148 jobs · 80 ledgers · 2834s
+2026-07-14T22:58:59.894Z   [dream] 85/148 jobs · 85 ledgers · 2947s
+2026-07-14T23:00:31.533Z   [dream] 90/148 jobs · 90 ledgers · 3039s
+2026-07-14T23:02:52.112Z   [dream] 95/148 jobs · 95 ledgers · 3180s
+2026-07-14T23:04:41.202Z   [dream] 100/148 jobs · 100 ledgers · 3289s
+2026-07-14T23:06:26.829Z   [dream] 105/148 jobs · 105 ledgers · 3394s
+2026-07-14T23:08:10.738Z   [dream] 110/148 jobs · 110 ledgers · 3498s
+2026-07-14T23:09:36.731Z   [dream] 115/148 jobs · 115 ledgers · 3584s
+2026-07-14T23:10:46.961Z   [dream] 120/148 jobs · 120 ledgers · 3654s
+2026-07-14T23:12:47.303Z   [dream] 125/148 jobs · 125 ledgers · 3775s
+2026-07-14T23:14:18.054Z   [dream] 130/148 jobs · 130 ledgers · 3865s
+2026-07-14T23:15:51.437Z   [dream] 135/148 jobs · 135 ledgers · 3959s
+2026-07-14T23:17:16.005Z   [dream] 140/148 jobs · 140 ledgers · 4043s
+2026-07-14T23:18:56.312Z   [dream] 145/148 jobs · 145 ledgers · 4144s
+2026-07-14T23:19:46.859Z   [dream] 148/148 jobs · 148 ledgers · 4194s
+2026-07-14T23:19:46.867Z   [dream] DONE in 4194s — 148 new ledgers (148 total) → _fhds_gpt4_d84a3211.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 25ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m66892[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3866Mo
+[NEURAL-ENGINE] CLOUD response in 17287ms
+2026-07-14T23:20:06.476Z   [qa] DREAM    (raw + ledgers)   : HIT (20s, 35src) — Based on the provided memory context, you have spent a total of **$185.00** on bike-related expenses since the start of the year. This total is composed of the …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 23ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m66892[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3866Mo
+[NEURAL-ENGINE] CLOUD response in 19687ms
+2026-07-14T23:20:27.650Z   [qa] ALL      (sorted + ledgers): HIT (21s, 35src) — Based on the provided memory context, you have spent a total of **$185.00** on bike-related expenses since the start of the year. This total is composed of the …
+2026-07-14T23:20:27.657Z   ⏱ gpt4_d84a3211 total 71min
+2026-07-14T23:20:27.658Z 
+━━ aae3761f [multi-session] How many hours in total did I spend driving to my three road trip destinations combined?
+2026-07-14T23:20:27.658Z    expected: 15 hours for getting to the three destinations (or 30 hours for the round trip)
+2026-07-14T23:20:27.732Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T23:20:27.732Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T23:20:27.737Z   [sort] top spines: GEOGRAPHY_TRAVEL:96 COOKING_RECIPES:94 FITNESS_SPORTS:87 ENTERTAINMENT_MEDIA:75 SCIENCE_TECHNOLOGY:70 HEALTH_WELLNESS:63 TRAVEL_PLANNING:61 HOME_ORGANIZATION:61 BOOK_RECOMMENDATIONS:55 FOOD_DRINK:53 HISTORY_POLITICS:45 ACADEMIC_RESEARCH:44 MARKETING_SALES:42 COLLECTIBLES_HOBBIES:42 AGRICULTURE_ENVIRONMENT:39 PERSONAL_WELLBEING:37 BIOLOGY_MEDICINE:37 PET_CARE:36 PRODUCTIVITY_TOOLS:33 CULTURAL_TRADITIONS:33 ECONOMICS_FINANCE:32 HOME_DECORATION:29 PHOTOGRAPHY_WORKSHOPS:28 GARDENING_LANDSCAPING:28 FICTIONAL_NARRATIVES:28 … (+126 more)
+2026-07-14T23:20:27.898Z   [dream] 128 topical spines ≥3 chunks (8 chunks non-topical/nature, skipped) — 145 already consolidated, 14 to do → consolidating (gemini-2.5-pro)
+2026-07-14T23:20:27.912Z   [dream] DONE in 0s — 0 new ledgers (145 total) → _fhds_aae3761f.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 26ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65428[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3866Mo
+[NEURAL-ENGINE] CLOUD response in 18591ms
+2026-07-14T23:20:48.086Z   [qa] DREAM    (raw + ledgers)   : HIT (20s, 35src) — Based on the memory context, you spent a total of 15 hours driving to three road trip destinations. The breakdown is as follows: * **6 hours:** Driving to Washi…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 23ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65428[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3949Mo
+[NEURAL-ENGINE] CLOUD response in 24049ms
+2026-07-14T23:21:13.361Z   [qa] ALL      (sorted + ledgers): HIT (25s, 35src) — Based on the memory context, you spent a total of 15 hours driving to three road trip destinations. * **Washington D.C.:** 6 hours (Source 1, Source 35) * **Mou…
+2026-07-14T23:21:13.366Z   ⏱ aae3761f total 1min
+2026-07-14T23:21:13.366Z 
+════ SPINE→DREAM FULL-HAYSTACK ════ 8 q
+2026-07-14T23:21:13.376Z   0a995998         [multi-session] base= —   dream=MISS all=HIT  · 157 ledgers · 73min
+2026-07-14T23:21:13.376Z   6d550036         [multi-session] base= —   dream=MISS all=MISS · 134 ledgers · 67min
+2026-07-14T23:21:13.376Z   gpt4_59c863d7    [multi-session] base= —   dream=MISS all=MISS · 200 ledgers · 89min
+2026-07-14T23:21:13.376Z   b5ef892d         [multi-session] base= —   dream=HIT  all=HIT  · 150 ledgers · 74min
+2026-07-14T23:21:13.377Z   e831120c         [multi-session] base= —   dream=HIT  all=HIT  · 125 ledgers · 63min
+2026-07-14T23:21:13.377Z   3a704032         [multi-session] base= —   dream=MISS all=MISS · 159 ledgers · 76min
+2026-07-14T23:21:13.377Z   gpt4_d84a3211    [multi-session] base= —   dream=HIT  all=HIT  · 148 ledgers · 71min
+2026-07-14T23:21:13.377Z   aae3761f         [multi-session] base= —   dream=HIT  all=HIT  · 145 ledgers · 1min
+2026-07-14T23:21:13.377Z   totals: baseline 0 · dream 4 · all-engines 5

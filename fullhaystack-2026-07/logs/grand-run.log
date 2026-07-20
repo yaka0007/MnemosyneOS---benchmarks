@@ -1,0 +1,544 @@
+[SYSTEM] Tool registered: scanWorkspace — "Scans the workspace root directory and lists the significant source files."
+[SYSTEM] Tool registered: analyzeArchitecture — "Analyzes the monorepo package structure and their cross-dependencies."
+[SYSTEM] Tool registered: readFile — "Reads the content of a source file and returns it for analysis."
+[34m[EMBEDDING-KERNEL][0m Provider registered: [36mharness:e5[0m | priority=[33m0[0m | dim=[33m768D[0m | offline=[32myes[0m
+[NEURAL-ENGINE] Provider registered: CLOUD — vertex:gemini-2.5-pro (0Mo RAM)
+2026-07-13T05:20:45.515Z FULL-HAYSTACK end-to-end — 48 q, topK=32, answer=pro, judge=flash flexible
+(node:30872) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 20ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m54987[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14692Mo
+[NEURAL-ENGINE] CLOUD response in 9919ms
+2026-07-13T05:26:45.300Z 7161e7e2 [single-session-assistant] 2524ch → HIT (llm_judge) · 32src · 359776ms
+2026-07-13T05:26:45.300Z    mnemo: Based on the memory context, Admon's shift on a Sunday was from 8 am to 4 pm (Day Shift). | exp: Admon was assigned to the 8 am - 4 pm (Day Shift) on Sundays.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 21ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m69712[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 11760Mo
+[NEURAL-ENGINE] CLOUD response in 16073ms
+2026-07-13T05:32:21.101Z c4f10528 [single-session-assistant] 2435ch → HIT (llm_judge) · 32src · 334294ms
+2026-07-13T05:32:21.101Z    mnemo: Based on memory logs from 2023/05/26, the restaurant in the Cihampelas Walk area is Miss Bee Providore. It offers a signature dish named "Miss Bee's N… | exp: Miss Bee Providore
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 22ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m43721[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14725Mo
+[NEURAL-ENGINE] CLOUD response in 13644ms
+2026-07-13T05:37:32.768Z 89527b6b [single-session-assistant] 2317ch → HIT (llm_judge) · 32src · 310162ms
+2026-07-13T05:37:32.768Z    mnemo: Based on the image description for the Plesiosaur in session `sharegpt_YkWn1Ne_0` (Date: 2023/05/28), its scaly body is blue. The description states: … | exp: The Plesiosaur had a blue scaly body.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 21ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m57685[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14842Mo
+[NEURAL-ENGINE] CLOUD response in 15241ms
+2026-07-13T05:42:48.601Z e9327a54 [single-session-assistant] 2432ch → HIT (llm_judge) · 32src · 314328ms
+2026-07-13T05:42:48.601Z    mnemo: Based on the memory context, the dessert shop in Orlando with giant milkshakes is The Sugar Factory. According to Source 7, it is described as: "A swe… | exp: The Sugar Factory at Icon Park.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m42873[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14763Mo
+[NEURAL-ENGINE] CLOUD response in 21742ms
+2026-07-13T05:48:14.258Z 4c36ccef [single-session-assistant] 2416ch → HIT (llm_judge) · 32src · 324154ms
+2026-07-13T05:48:14.258Z    mnemo: Based on your query from 2023/05/21, the restaurant recommended for a romantic dinner in Rome was Roscioli (Source 1). | exp: Roscioli
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 20ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m60815[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14756Mo
+[NEURAL-ENGINE] CLOUD response in 14345ms
+2026-07-13T05:53:28.157Z 6ae235be [single-session-assistant] 2443ch → HIT (llm_judge) · 32src · 312396ms
+2026-07-13T05:53:28.158Z    mnemo: Based on information from 2023/05/30, the main refining processes at the CITGO Lake Charles Refinery are: * **Atmospheric distillation:** The initial … | exp: Atmospheric distillation, fluid catalytic cracking (FCC), alkylation, and hydrot…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 19ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m66233[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14702Mo
+[NEURAL-ENGINE] CLOUD response in 26011ms
+2026-07-13T05:58:58.908Z 7e00a6cb [single-session-assistant] 2448ch → HIT (llm_judge) · 32src · 329236ms
+2026-07-13T05:58:58.909Z    mnemo: Based on our session on May 25, 2023, the hostel recommended that is situated near the Red Light District is the **International Budget Hostel** (Sour… | exp: International Budget Hostel
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 26ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m49127[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14514Mo
+[NEURAL-ENGINE] CLOUD response in 17285ms
+2026-07-13T06:04:45.656Z 1903aded [single-session-assistant] 2488ch → HIT (llm_judge) · 32src · 345238ms
+2026-07-13T06:04:45.656Z    mnemo: Based on the session log from 2023/05/23, the 7th job in the list provided for "work from home jobs for seniors" was "Transcriptionist". | exp: Transcriptionist.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 13ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m48421[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14467Mo
+[NEURAL-ENGINE] CLOUD response in 13639ms
+2026-07-13T06:09:54.488Z e47becba [single-session-user] 2348ch → HIT (llm_judge) · 32src · 307317ms
+2026-07-13T06:09:54.488Z    mnemo: Based on the memory context, you stated on 2023/05/24 that you graduated with a degree in Business Administration (Source 8). | exp: Business Administration
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m47323[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14635Mo
+[NEURAL-ENGINE] CLOUD response in 15683ms
+2026-07-13T06:15:19.562Z 118b2229 [single-session-user] 2448ch → MISS (llm_judge) · 32src · 323571ms
+2026-07-13T06:15:19.562Z    mnemo: Based on the memory context, your daily commute is one hour each way. This is stated in a conversation from 2023/05/27 (Source 12). | exp: 45 minutes each way
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 14ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m58251[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14259Mo
+[NEURAL-ENGINE] CLOUD response in 21959ms
+2026-07-13T06:20:53.525Z 51a45a95 [single-session-user] 2392ch → HIT (llm_judge) · 32src · 332458ms
+2026-07-13T06:20:53.526Z    mnemo: Based on a conversation from 2023/05/29, you redeemed a $5 coupon on coffee creamer at Target. You stated that you found the coupon in your email inbo… | exp: Target
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m50514[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14286Mo
+[NEURAL-ENGINE] CLOUD response in 16653ms
+2026-07-13T06:26:04.361Z 58bf7951 [single-session-user] 2374ch → HIT (llm_judge) · 32src · 309328ms
+2026-07-13T06:26:04.362Z    mnemo: Based on your statement from 2023/05/30, the play you attended at the community theater was a production of "The Glass Menagerie". | exp: The Glass Menagerie
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 13ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m54287[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14194Mo
+[NEURAL-ENGINE] CLOUD response in 29099ms
+2026-07-13T06:31:47.269Z 1e043500 [single-session-user] 2444ch → HIT (llm_judge) · 32src · 341402ms
+2026-07-13T06:31:47.269Z    mnemo: Based on the memory context, you have a playlist referred to as the "Summer Vibes playlist". This is mentioned in a conversation dated 2023/05/22 (Sou… | exp: Summer Vibes
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 18ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m52337[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14200Mo
+[NEURAL-ENGINE] CLOUD response in 13793ms
+2026-07-13T06:36:57.911Z c5e8278d [single-session-user] 2328ch → HIT (llm_judge) · 32src · 309135ms
+2026-07-13T06:36:57.911Z    mnemo: Based on the memory context from 2023/05/20, your previous last name was Johnson. You stated, "...my old name was Johnson, but now it's Winters" (Sour… | exp: Johnson
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 13ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m57238[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14185Mo
+[NEURAL-ENGINE] CLOUD response in 20485ms
+2026-07-13T06:42:16.297Z 6ade9755 [single-session-user] 2326ch → HIT (llm_judge) · 32src · 316871ms
+2026-07-13T06:42:16.298Z    mnemo: Based on the memory context, you take yoga classes at "Serenity Yoga" (Source 5). You also use the "Down Dog" app for your home practice (Source 5). A… | exp: Serenity Yoga
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m46197[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14146Mo
+[NEURAL-ENGINE] CLOUD response in 13041ms
+2026-07-13T06:47:22.896Z 6f9b354f [single-session-user] 2335ch → MISS (llm_judge) · 32src · 305085ms
+2026-07-13T06:47:22.896Z    mnemo: Based on the memory context, there is no information available regarding you repainting your bedroom walls. The context does mention that as of May 27… | exp: a lighter shade of gray
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 13ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m37168[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14189Mo
+[NEURAL-ENGINE] CLOUD response in 18746ms
+2026-07-13T06:52:44.951Z 6a1eabeb [knowledge-update] 2409ch → HIT (llm_judge) · 32src · 320543ms
+2026-07-13T06:52:44.951Z    mnemo: According to a session dated May 26, 2023, your personal best time for a 5K run is 25:50. You mentioned this time while discussing your goal to beat i… | exp: 25 minutes and 50 seconds (or 25:50)
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 13ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m49048[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14195Mo
+[NEURAL-ENGINE] CLOUD response in 13114ms
+2026-07-13T06:58:14.289Z 6aeb4375 [knowledge-update] 2506ch → MISS (llm_judge) · 32src · 327832ms
+2026-07-13T06:58:14.289Z    mnemo: Based on the memory context, you have tried a total of 3 Korean restaurants in your city. This is detailed in Source 9, where you describe your experi… | exp: four
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 13ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m50066[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14157Mo
+[NEURAL-ENGINE] CLOUD response in 14445ms
+2026-07-13T07:03:37.684Z 830ce83f [knowledge-update] 2459ch → MISS (llm_judge) · 32src · 321882ms
+2026-07-13T07:03:37.685Z    mnemo: Based on a session dated 2023/05/24, your friend Rachel recently moved to a new apartment in Chicago (Source 1). | exp: the suburbs
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 18ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m52076[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14137Mo
+[NEURAL-ENGINE] CLOUD response in 11882ms
+2026-07-13T07:08:52.389Z 852ce960 [knowledge-update] 2396ch → HIT (llm_judge) · 32src · 313188ms
+2026-07-13T07:08:52.389Z    mnemo: Based on a session dated November 30, 2023, you stated you were pre-approved for $400,000 from Wells Fargo (Source 1). An older session from August 11… | exp: $400,000
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 13ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m59660[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14128Mo
+[NEURAL-ENGINE] CLOUD response in 16704ms
+2026-07-13T07:14:19.927Z 945e3d21 [knowledge-update] 2524ch → HIT (llm_judge) · 32src · 326027ms
+2026-07-13T07:14:19.927Z    mnemo: Based on the memory context, you attend yoga classes on Tuesday, Thursday, and Friday. A schedule created for you on November 30, 2023, explicitly des… | exp: Three times a week.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 13ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m53689[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14085Mo
+[NEURAL-ENGINE] CLOUD response in 13241ms
+2026-07-13T07:19:28.051Z d7c942c3 [knowledge-update] 2347ch → HIT (llm_judge) · 32src · 306620ms
+2026-07-13T07:19:28.051Z    mnemo: Yes. According to a session dated 2023/04/30, you stated, "my mom is actually using the same grocery list app as me now, so we can easily share lists … | exp: Yes.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 12ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m48759[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14097Mo
+[NEURAL-ENGINE] CLOUD response in 19260ms
+2026-07-13T07:24:45.387Z 71315a70 [knowledge-update] 2397ch → HIT (llm_judge) · 32src · 315828ms
+2026-07-13T07:24:45.387Z    mnemo: Based on the memory context, you have spent 10-12 hours on your abstract ocean sculpture. This is stated in two sources, both dated 2023/06/17, which … | exp: 10-12 hours
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 12ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m43622[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14051Mo
+[NEURAL-ENGINE] CLOUD response in 18186ms
+2026-07-13T07:30:25.055Z 89941a93 [knowledge-update] 2606ch → HIT (llm_judge) · 32src · 338162ms
+2026-07-13T07:30:25.055Z    mnemo: Based on the memory context, you currently own 4 bikes. * **February 22, 2023:** You stated that you owned three bikes: a road bike, a mountain bike, … | exp: 4
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 14ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m55723[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14066Mo
+[NEURAL-ENGINE] CLOUD response in 22972ms
+2026-07-13T07:36:05.184Z gpt4_2655b836 [temporal-reasoning] 2472ch → HIT (llm_judge) · 32src · 338617ms
+2026-07-13T07:36:05.184Z    mnemo: Based on the provided memory context, the first issue you had with your car after its first service on March 15th (Source 3) was a problem with the GP… | exp: GPS system not functioning correctly
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 17ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m35576[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14053Mo
+[NEURAL-ENGINE] CLOUD response in 12380ms
+2026-07-13T07:41:28.440Z gpt4_2487a7cb [temporal-reasoning] 2506ch → HIT (llm_judge) · 32src · 321753ms
+2026-07-13T07:41:28.440Z    mnemo: Based on the provided memory context, you attended a webinar on "Data Analysis using Python" two months prior to 2023/05/26 (Source 12). The context c… | exp: 'Data Analysis using Python' webinar
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 20ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m30863[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14025Mo
+[NEURAL-ENGINE] CLOUD response in 17773ms
+2026-07-13T07:46:42.188Z gpt4_76048e76 [temporal-reasoning] 2367ch → HIT (llm_judge) · 32src · 312245ms
+2026-07-13T07:46:42.188Z    mnemo: Based on the memory context, you had your bike repaired in mid-February because the gears were acting up and you could not shift properly (Source 2, 2… | exp: bike
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m67627[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13997Mo
+[NEURAL-ENGINE] CLOUD response in 14853ms
+2026-07-13T07:51:58.409Z gpt4_2312f94c [temporal-reasoning] 2398ch → MISS (llm_judge) · 32src · 314713ms
+2026-07-13T07:51:58.409Z    mnemo: Based on the memory context, your Dell XPS 13 laptop arrived on February 25th. The acquisition date for your Samsung Galaxy S22 is not specified. Ther… | exp: Samsung Galaxy S22
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 19ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m46809[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14003Mo
+[NEURAL-ENGINE] CLOUD response in 15819ms
+2026-07-13T07:57:19.846Z 0bb5a684 [temporal-reasoning] 2407ch → HIT (llm_judge) · 32src · 319937ms
+2026-07-13T07:57:19.846Z    mnemo: Based on the memory context, you attended the workshop 7 days before the team meeting. * **Workshop Date:** You attended the "Effective Communication … | exp: 7 days. 8 days (including the last day) is also acceptable.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 17ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65736[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13967Mo
+[NEURAL-ENGINE] CLOUD response in 26618ms
+2026-07-13T08:02:57.226Z 08f4fc43 [temporal-reasoning] 2528ch → MISS (llm_judge) · 32src · 335863ms
+2026-07-13T08:02:57.226Z    mnemo: Based on the memory context, 29 days had passed between the two events. - The Sunday mass at St. Mary's Church is stated to have occurred on **January… | exp: 30 days. 31 days (including the last day) is also acceptable.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 16ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m58358[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14040Mo
+[NEURAL-ENGINE] CLOUD response in 12163ms
+2026-07-13T08:08:16.721Z 2c63a862 [temporal-reasoning] 2512ch → HIT (llm_judge) · 32src · 317989ms
+2026-07-13T08:08:16.721Z    mnemo: Based on the memory context, it took you 14 days. You started working with your real estate agent, Rachel, on February 15, 2022 (Source 2), and you sa… | exp: 14 days. 15 days (including the last day) is also acceptable.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m53197[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 14016Mo
+[NEURAL-ENGINE] CLOUD response in 14641ms
+2026-07-13T08:13:30.411Z gpt4_385a5000 [temporal-reasoning] 2386ch → MISS (llm_judge) · 32src · 312183ms
+2026-07-13T08:13:30.411Z    mnemo: Based on the provided memory context, the marigold seeds were started. Source 1 states, "I just started some marigold seeds that arrived on March 3rd,… | exp: Tomatoes
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 14ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m49071[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13800Mo
+[NEURAL-ENGINE] CLOUD response in 18234ms
+2026-07-13T08:18:44.332Z 8a2466db [single-session-preference] 2343ch → HIT (llm_judge) · 32src · 312417ms
+2026-07-13T08:18:44.333Z    mnemo: Based on your stated enjoyment of using Adobe Premiere Pro (Source 2), here are resources previously identified to help you learn more about video edi… | exp: The user would prefer responses that suggest resources specifically tailored to …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 14ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m60127[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13774Mo
+[NEURAL-ENGINE] CLOUD response in 23464ms
+2026-07-13T08:24:12.395Z 06878be2 [single-session-preference] 2432ch → MISS (llm_judge) · 32src · 326562ms
+2026-07-13T08:24:12.395Z    mnemo: Based on your stated interests in vintage/film photography, astrophotography, and product photography, here are accessory recommendations for your set… | exp: The user would prefer suggestions of Sony-compatible accessories or high-quality…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 14ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m55458[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13808Mo
+[NEURAL-ENGINE] CLOUD response in 25994ms
+2026-07-13T08:29:37.822Z 75832dbd [single-session-preference] 2386ch → HIT (llm_judge) · 32src · 323916ms
+2026-07-13T08:29:37.822Z    mnemo: Based on your stated interests in Natural Language Processing (NLP), AI applications in healthcare and finance, data science, and environmental sustai… | exp: The user would prefer suggestions related to recent research papers, articles, o…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 14ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m51284[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13781Mo
+[NEURAL-ENGINE] CLOUD response in 21058ms
+2026-07-13T08:34:49.471Z 0edc2aef [single-session-preference] 2324ch → HIT (llm_judge) · 32src · 310134ms
+2026-07-13T08:34:49.472Z    mnemo: Based on the memory context, I cannot provide a specific hotel recommendation for Miami. While the context indicates you are planning a trip to Miami … | exp: The user would prefer suggestions of hotels in Miami that offer great views, pos…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m59809[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13746Mo
+[NEURAL-ENGINE] CLOUD response in 45686ms
+2026-07-13T08:40:37.880Z 35a27287 [single-session-preference] 2394ch → MISS (llm_judge) · 32src · 346908ms
+2026-07-13T08:40:37.881Z    mnemo: Based on the memory context, I can recommend one event for this upcoming weekend that aligns with your stated preferences. According to Source 27, the… | exp: The user would prefer responses that suggest cultural events where they can prac…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m54763[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13726Mo
+[NEURAL-ENGINE] CLOUD response in 21871ms
+2026-07-13T08:45:56.754Z 32260d93 [single-session-preference] 2369ch → MISS (llm_judge) · 32src · 317369ms
+2026-07-13T08:45:56.754Z    mnemo: Based on your stated preferences, a recommendation is **Breaking Bad**. Your memory context indicates a specific interest in this show. On 2023/05/29,… | exp: The user would prefer recommendations for stand-up comedy specials on Netflix, e…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m37975[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13716Mo
+[NEURAL-ENGINE] CLOUD response in 18339ms
+2026-07-13T08:51:01.519Z 195a1a1b [single-session-preference] 2315ch → HIT (llm_judge) · 32src · 303257ms
+2026-07-13T08:51:01.519Z    mnemo: Based on your stated preferences, here are some recommendations for evening activities: 1. **Discover Live Music:** You have expressed a strong intere… | exp: The user would prefer suggestions that involve relaxing activities that can be d…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m54054[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13809Mo
+[NEURAL-ENGINE] CLOUD response in 29470ms
+2026-07-13T08:56:27.286Z afdc33df [single-session-preference] 2329ch → HIT (llm_judge) · 32src · 324262ms
+2026-07-13T08:56:27.286Z    mnemo: Based on the memory context, here are some tips for keeping your kitchen clean and organized: From a discussion on optimizing a daily cleaning routine… | exp: The user would prefer responses that acknowledge and build upon their existing e…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 16ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m68047[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13795Mo
+[NEURAL-ENGINE] CLOUD response in 20779ms
+2026-07-13T09:01:37.910Z 0a995998 [multi-session] 2330ch → MISS (llm_judge) · 32src · 309109ms
+2026-07-13T09:01:37.910Z    mnemo: Based on the memory context, you need to pick up or return a total of 2 items of clothing. 1. **A new pair of boots**: To be picked up from Zara follo… | exp: 3
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 13ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m51556[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13688Mo
+[NEURAL-ENGINE] CLOUD response in 20794ms
+2026-07-13T09:07:03.350Z 6d550036 [multi-session] 2470ch → MISS (llm_judge) · 32src · 323924ms
+2026-07-13T09:07:03.350Z    mnemo: Based on the memory context, you are leading or responsible for a total of 5 projects. This is based on the following information: * **Source 21:** In… | exp: 2
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 12ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m49442[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13678Mo
+[NEURAL-ENGINE] CLOUD response in 21536ms
+2026-07-13T09:12:44.579Z gpt4_59c863d7 [multi-session] 2596ch → MISS (llm_judge) · 32src · 339715ms
+2026-07-13T09:12:44.579Z    mnemo: Based on the memory context, you have worked on or bought a total of 4 model kits. The specific kits are: * **Tamiya 1/48 scale Spitfire Mk.V**: Menti… | exp: I have worked on or bought five model kits. The scales of the models are: Revell…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 15ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m68740[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13652Mo
+[NEURAL-ENGINE] CLOUD response in 19182ms
+2026-07-13T09:18:02.064Z b5ef892d [multi-session] 2404ch → MISS (llm_judge) · 32src · 315981ms
+2026-07-13T09:18:02.064Z    mnemo: Based on the provided memory, you have spent a total of 5 days on camping trips in the United States this year. This is based on the following instanc… | exp: 8 days.
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 17ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m56327[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13745Mo
+[NEURAL-ENGINE] CLOUD response in 14965ms
+2026-07-13T09:23:12.032Z e831120c [multi-session] 2335ch → HIT (llm_judge) · 32src · 308460ms
+2026-07-13T09:23:12.032Z    mnemo: Based on the memory context, it took you a total of 3.5 weeks to watch the specified movies. This is the breakdown: * **Marvel Cinematic Universe:** Y… | exp: 3.5 weeks
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 18ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m43511[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13679Mo
+[NEURAL-ENGINE] CLOUD response in 40471ms
+2026-07-13T09:29:07.292Z 3a704032 [multi-session] 2516ch → MISS (llm_judge) · 32src · 353747ms
+2026-07-13T09:29:07.292Z    mnemo: Based on the provided memory context, there is no information available regarding the acquisition of plants within the last month. | exp: 3
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 27ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m63360[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13625Mo
+[NEURAL-ENGINE] CLOUD response in 18389ms
+2026-07-13T09:34:29.657Z gpt4_d84a3211 [multi-session] 2440ch → MISS (llm_judge) · 32src · 320848ms
+2026-07-13T09:34:29.657Z    mnemo: Based on the provided memory context, you have spent a total of $65.00 on bike-related expenses since the start of the year. This total is comprised o… | exp: $185
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 14ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m54397[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 13697Mo
+[NEURAL-ENGINE] CLOUD response in 43623ms
+2026-07-13T09:40:03.977Z aae3761f [multi-session] 2311ch → MISS (llm_judge) · 32src · 332816ms
+2026-07-13T09:40:03.977Z    mnemo: Based on the memory context, the total combined driving time for the specified road trips is 11 hours. This total is derived from the following instan… | exp: 15 hours for getting to the three destinations (or 30 hours for the round trip)
+2026-07-13T09:40:05.488Z 
+════ FULL-HAYSTACK RESULT ════ 31/48 = 64.6% (topK=32)
+2026-07-13T09:40:05.488Z    Knowledge-Update: 6/8
+2026-07-13T09:40:05.489Z    Multi-Session: 1/8
+2026-07-13T09:40:05.489Z    SS-Assistant: 8/8
+2026-07-13T09:40:05.489Z    SS-Pref: 5/8
+2026-07-13T09:40:05.489Z    SS-User: 6/8
+2026-07-13T09:40:05.489Z    Temporal: 5/8

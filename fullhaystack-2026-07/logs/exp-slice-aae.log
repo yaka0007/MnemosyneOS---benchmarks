@@ -1,0 +1,72 @@
+[SYSTEM] Tool registered: scanWorkspace — "Scans the workspace root directory and lists the significant source files."
+[SYSTEM] Tool registered: analyzeArchitecture — "Analyzes the monorepo package structure and their cross-dependencies."
+[SYSTEM] Tool registered: readFile — "Reads the content of a source file and returns it for analysis."
+[34m[EMBEDDING-KERNEL][0m Provider registered: [36mharness:e5[0m | priority=[33m0[0m | dim=[33m768D[0m | offline=[32myes[0m
+[NEURAL-ENGINE] Provider registered: CLOUD — vertex:gemini-2.5-pro (0Mo RAM)
+2026-07-14T13:33:56.492Z SPINE→DREAM×FULL-HAYSTACK — 1 q · min=3 limit=0 batch=16 model=gemini-2.5-pro · suffix=slice
+2026-07-14T13:33:56.503Z 
+━━ aae3761f [multi-session] How many hours in total did I spend driving to my three road trip destinations combined?
+2026-07-14T13:33:56.503Z    expected: 15 hours for getting to the three destinations (or 30 hours for the round trip)
+2026-07-14T13:33:56.520Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+(node:264180) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+2026-07-14T13:33:56.522Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T13:33:56.528Z   [sort] top spines: GEOGRAPHY_TRAVEL:96 COOKING_RECIPES:94 FITNESS_SPORTS:87 ENTERTAINMENT_MEDIA:75 SCIENCE_TECHNOLOGY:70 HEALTH_WELLNESS:63 TRAVEL_PLANNING:61 HOME_ORGANIZATION:61 BOOK_RECOMMENDATIONS:55 FOOD_DRINK:53 HISTORY_POLITICS:45 ACADEMIC_RESEARCH:44 MARKETING_SALES:42 COLLECTIBLES_HOBBIES:42 AGRICULTURE_ENVIRONMENT:39 PERSONAL_WELLBEING:37 BIOLOGY_MEDICINE:37 PET_CARE:36 PRODUCTIVITY_TOOLS:33 CULTURAL_TRADITIONS:33 ECONOMICS_FINANCE:32 HOME_DECORATION:29 PHOTOGRAPHY_WORKSHOPS:28 GARDENING_LANDSCAPING:28 FICTIONAL_NARRATIVES:28 … (+126 more)
+2026-07-14T13:33:56.575Z   [dream] 128 topical spines ≥3 chunks (8 chunks non-topical/nature, skipped) → consolidating (gemini-2.5-pro)
+2026-07-14T13:37:39.658Z   [dream] 5/145 jobs · 5 ledgers · 223s
+2026-07-14T13:40:09.986Z   [dream] 10/145 jobs · 10 ledgers · 373s
+2026-07-14T13:43:40.597Z   [dream] 15/145 jobs · 15 ledgers · 584s
+2026-07-14T13:47:12.838Z   [dream] 20/145 jobs · 20 ledgers · 796s
+2026-07-14T13:51:16.356Z   [dream] 25/145 jobs · 25 ledgers · 1040s
+2026-07-14T13:54:22.896Z   [dream] 30/145 jobs · 30 ledgers · 1226s
+2026-07-14T13:57:33.185Z   [dream] 35/145 jobs · 35 ledgers · 1417s
+2026-07-14T14:01:14.259Z   [dream] 40/145 jobs · 40 ledgers · 1638s
+2026-07-14T14:04:28.441Z   [dream] 45/145 jobs · 45 ledgers · 1832s
+2026-07-14T14:07:00.659Z   [dream] 50/145 jobs · 50 ledgers · 1984s
+2026-07-14T14:09:56.711Z   [dream] 55/145 jobs · 55 ledgers · 2160s
+2026-07-14T14:12:16.806Z   [dream] 60/145 jobs · 60 ledgers · 2300s
+2026-07-14T14:14:45.878Z   [dream] 65/145 jobs · 65 ledgers · 2449s
+2026-07-14T14:16:33.709Z   [dream] 70/145 jobs · 70 ledgers · 2557s
+2026-07-14T14:18:48.801Z   [dream] 75/145 jobs · 75 ledgers · 2692s
+2026-07-14T14:20:52.978Z   [dream] 80/145 jobs · 80 ledgers · 2816s
+2026-07-14T14:23:05.220Z   [dream] 85/145 jobs · 85 ledgers · 2949s
+2026-07-14T14:25:23.201Z   [dream] 90/145 jobs · 90 ledgers · 3087s
+2026-07-14T14:27:31.838Z   [dream] 95/145 jobs · 95 ledgers · 3215s
+2026-07-14T14:29:50.326Z   [dream] 100/145 jobs · 100 ledgers · 3354s
+2026-07-14T14:31:58.701Z   [dream] 105/145 jobs · 105 ledgers · 3482s
+2026-07-14T14:33:52.597Z   [dream] 110/145 jobs · 110 ledgers · 3596s
+2026-07-14T14:35:37.547Z   [dream] 115/145 jobs · 115 ledgers · 3701s
+2026-07-14T14:37:42.442Z   [dream] 120/145 jobs · 120 ledgers · 3826s
+2026-07-14T14:39:38.271Z   [dream] 125/145 jobs · 125 ledgers · 3942s
+2026-07-14T14:41:26.361Z   [dream] 130/145 jobs · 130 ledgers · 4050s
+2026-07-14T14:43:03.034Z   [dream] 135/145 jobs · 135 ledgers · 4146s
+2026-07-14T14:44:37.767Z   [dream] 140/145 jobs · 140 ledgers · 4241s
+2026-07-14T14:46:16.991Z   [dream] 145/145 jobs · 145 ledgers · 4340s
+2026-07-14T14:46:17.007Z   [dream] DONE in 4340s — 145 new ledgers (145 total) → _fhds_aae3761f.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 24ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65428[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4799Mo
+[NEURAL-ENGINE] CLOUD response in 14874ms
+2026-07-14T14:46:34.708Z   [qa] DREAM    (raw + ledgers)   : HIT (18s, 35src) — Based on the provided memory context, the total combined driving time for your three road trip destinations is 15 hours. This total is the sum of the following …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 28ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65428[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4799Mo
+[NEURAL-ENGINE] CLOUD response in 12897ms
+2026-07-14T14:46:49.807Z   [qa] ALL      (sorted + ledgers): HIT (15s, 35src) — Based on the provided memory context, you spent a total of 15 hours driving to your three road trip destinations. The breakdown is as follows: * **Washington D.…
+2026-07-14T14:46:49.816Z   ⏱ aae3761f total 73min
+2026-07-14T14:46:49.816Z 
+════ SPINE→DREAM FULL-HAYSTACK ════ 1 q
+2026-07-14T14:46:49.816Z   aae3761f         [multi-session] base= —   dream=HIT  all=HIT  · 145 ledgers · 73min
+2026-07-14T14:46:49.816Z   totals: baseline 0 · dream 1 · all-engines 1

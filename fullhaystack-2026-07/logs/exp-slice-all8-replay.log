@@ -1,0 +1,267 @@
+[SYSTEM] Tool registered: scanWorkspace — "Scans the workspace root directory and lists the significant source files."
+[SYSTEM] Tool registered: analyzeArchitecture — "Analyzes the monorepo package structure and their cross-dependencies."
+[SYSTEM] Tool registered: readFile — "Reads the content of a source file and returns it for analysis."
+[34m[EMBEDDING-KERNEL][0m Provider registered: [36mharness:e5[0m | priority=[33m0[0m | dim=[33m768D[0m | offline=[32myes[0m
+[NEURAL-ENGINE] Provider registered: CLOUD — vertex:gemini-2.5-pro (0Mo RAM)
+2026-07-14T23:21:17.884Z SPINE→DREAM×FULL-HAYSTACK — 8 q · min=3 limit=0 batch=16 model=gemini-2.5-pro · suffix=slice
+2026-07-14T23:21:17.892Z 
+━━ 0a995998 [multi-session] How many items of clothing do I need to pick up or return from a store?
+2026-07-14T23:21:17.892Z    expected: 3
+2026-07-14T23:21:18.015Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+(node:241036) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+2026-07-14T23:21:18.016Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T23:21:18.023Z   [sort] top spines: TRAVEL_PLANNING:145 COOKING_RECIPES:134 BUSINESS_MARKETING:72 ROUTINES_HABITS:57 ENTERTAINMENT_EVENTS:54 ENVIRONMENTAL_ISSUES:53 FITNESS_CLASSES:49 EDUCATION_CAREER:49 TECHNOLOGY_GAMING:47 ARTS_CRAFTS:46 HOME_DECOR:45 HEALTH_NUTRITION:44 FICTIONAL_NARRATIVES:42 ACADEMIC_DISCUSSIONS:42 LANGUAGE_GRAMMAR:38 HOME_ORGANIZATION:38 SPIRITUAL_RELIGIOUS:34 SOCIAL_MEDIA_PLATFORMS:33 NATURE_OUTDOORS:33 MUSIC_DISCUSSIONS:33 EMPLOYMENT_HR:33 SHOPPING_DEALS:29 RESTAURANT_CHOICES:29 GROCERY_MEAL_PLANNING:28 GIFT_PLANNING:28 … (+152 more)
+2026-07-14T23:21:18.201Z   [dream] 139 topical spines ≥3 chunks (10 chunks non-topical/nature, skipped) — 157 already consolidated, 14 to do → consolidating (gemini-2.5-pro)
+2026-07-14T23:21:18.213Z   [dream] DONE in 0s — 0 new ledgers (157 total) → _fhds_0a995998.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 1898ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m73991[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 2902Mo
+[NEURAL-ENGINE] CLOUD response in 21083ms
+2026-07-14T23:21:43.693Z   [qa] DREAM    (raw + ledgers)   : HIT (25s, 35src) — Based on the provided memory context, you have a total of 3 clothing items to either pick up or return. * **Pickup:** 1 exchanged (larger) pair of boots from Za…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 29ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m73991[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 2902Mo
+[NEURAL-ENGINE] CLOUD response in 14778ms
+2026-07-14T23:21:59.660Z   [qa] ALL      (sorted + ledgers): HIT (16s, 35src) — Based on the memory context, you have a total of 3 clothing items to pick up or return. 1. **Item:** 1 pair of boots (exchanged, larger size) * **Action:** Pick…
+2026-07-14T23:21:59.666Z   ⏱ 0a995998 total 1min
+2026-07-14T23:21:59.666Z 
+━━ 6d550036 [multi-session] How many projects have I led or am currently leading?
+2026-07-14T23:21:59.666Z    expected: 2
+2026-07-14T23:21:59.749Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T23:21:59.749Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T23:21:59.754Z   [sort] top spines: FOOD_DINING:128 WELLBEING:125 TRAVEL_PLANNING:122 BOOKS_LITERATURE:103 MARKETING_STRATEGY:78 ARTS_CULTURE:69 HISTORY_CULTURE:60 FITNESS_WELLNESS:59 PERSONAL_PRODUCTIVITY:58 SOFTWARE_DEVELOPMENT:51 RECREATIONAL_ACTIVITIES:51 ACADEMIC_PROJECTS:48 BUSINESS_FINANCE:47 ENTERTAINMENT_MEDIA:46 CAREER_DEVELOPMENT:45 HOME_MAINTENANCE:43 CULTURAL_EXPLORATION:41 SPIRITUALITY_RELIGION:40 EVENT_PLANNING:38 SOCIAL_RELATIONSHIPS:37 GARDENING_PLANTS:36 PERFORMING_ARTS:34 HOME_ORGANIZATION:33 MEDICAL_RESEARCH:32 MUSIC_INSTRUMENTS:30 … (+100 more)
+2026-07-14T23:21:59.928Z   [dream] 110 topical spines ≥3 chunks (2 chunks non-topical/nature, skipped) — 134 already consolidated, 17 to do → consolidating (gemini-2.5-pro)
+2026-07-14T23:21:59.944Z   [dream] DONE in 0s — 0 new ledgers (134 total) → _fhds_6d550036.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 20ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m50439[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 2902Mo
+[NEURAL-ENGINE] CLOUD response in 48008ms
+2026-07-14T23:22:49.729Z   [qa] DREAM    (raw + ledgers)   : MISS (50s, 35src) — Based on the provided memory context, you are leading or responsible for a total of 9 projects. Here is the enumeration of these projects: * **5 Marketing Proje…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 16ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m50439[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3924Mo
+[NEURAL-ENGINE] CLOUD response in 25339ms
+2026-07-14T23:23:16.317Z   [qa] ALL      (sorted + ledgers): MISS (27s, 35src) — Based on the memory context, you have led or are currently leading a total of 10 projects. Here is the enumeration of each project: * **5 Marketing Projects:** …
+2026-07-14T23:23:16.322Z   ⏱ 6d550036 total 1min
+2026-07-14T23:23:16.322Z 
+━━ gpt4_59c863d7 [multi-session] How many model kits have I worked on or bought?
+2026-07-14T23:23:16.322Z    expected: I have worked on or bought five model kits. The scales of the models are: Revell F-15 Eagle (scale n…
+2026-07-14T23:23:16.403Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T23:23:16.403Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T23:23:16.408Z   [sort] top spines: TRAVEL_PLANNING:125 COOKING_RECIPES:95 HEALTH_WELLNESS:80 BOOK_RECOMMENDATIONS:74 MODEL_BUILDING:62 ACADEMIC_RESEARCH:45 COLLECTIBLES_HOBBIES:43 LANGUAGE_STUDY:40 OUTDOOR_ACTIVITIES:39 PHOTOGRAPHY_TIPS:38 FILM_STUDY:38 ACTING_PERFORMANCE:38 AI_APPLICATIONS:36 CAR_MAINTENANCE:34 CHARITY_EVENTS:31 HOME_ORGANIZATION:30 FITNESS_TRAINING:30 HOME_MAINTENANCE:29 HOME_GARDENING:29 SUSTAINABLE_LIVING:28 LANGUAGE_CULTURE:28 TECH_GADGETS:27 HOME_DECOR:27 SPIRITUAL_PRACTICES:25 RESTAURANT_RECOMMENDATIONS:25 … (+222 more)
+2026-07-14T23:23:16.603Z   [dream] 190 topical spines ≥3 chunks (0 chunks non-topical/nature, skipped) — 200 already consolidated, 7 to do → consolidating (gemini-2.5-pro)
+2026-07-14T23:23:16.616Z   [dream] DONE in 0s — 0 new ledgers (200 total) → _fhds_gpt4_59c863d7.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 18ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m52572[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3924Mo
+[NEURAL-ENGINE] CLOUD response in 23759ms
+2026-07-14T23:23:41.929Z   [qa] DREAM    (raw + ledgers)   : MISS (25s, 35src) — Based on the memory context, you have worked on or bought a total of 7 model kits. Here is the enumeration: * **Tamiya 1/48 scale Spitfire Mk.V:** You recently …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 18ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m52572[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3924Mo
+[NEURAL-ENGINE] CLOUD response in 21923ms
+2026-07-14T23:24:05.089Z   [qa] ALL      (sorted + ledgers): MISS (23s, 35src) — Based on the provided memory context, you have worked on or bought a total of 7 model kits. Here is the enumeration of each kit: * **Revell F-15 Eagle kit:** Pu…
+2026-07-14T23:24:05.094Z   ⏱ gpt4_59c863d7 total 1min
+2026-07-14T23:24:05.094Z 
+━━ b5ef892d [multi-session] How many days did I spend on camping trips in the United States this year?
+2026-07-14T23:24:05.094Z    expected: 8 days.
+2026-07-14T23:24:05.174Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T23:24:05.174Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T23:24:05.179Z   [sort] top spines: HEALTH_FITNESS:134 TRAVEL_PLANNING:129 CULINARY_EXPLORATION:123 MEDIA_RECOMMENDATIONS:106 EDUCATION_DISCUSSION:76 SOCIAL_MEDIA_STRATEGY:60 CAREER_DEVELOPMENT:53 ENVIRONMENTAL_DISCUSSION:48 SOFTWARE_DEVELOPMENT:46 CULINARY_PREPARATION:46 HOME_ORGANIZATION:45 HISTORICAL_DISCUSSION:44 SELF_IMPROVEMENT:41 HOBBIES_RECREATION:40 PERSONAL_CARE:38 PHOTOGRAPHY_DISCUSSION:36 FASHION_STYLE:36 MARKETING_STRATEGY:35 ECO_FRIENDLY_LIVING:34 READING_HABITS:33 PHOTOGRAPHY_TECH:32 SOCIAL_INTERACTIONS:31 CREATIVE_WRITING:31 HOME_MAINTENANCE:30 ART_DISCUSSION:29 … (+121 more)
+2026-07-14T23:24:05.346Z   [dream] 130 topical spines ≥3 chunks (0 chunks non-topical/nature, skipped) — 150 already consolidated, 13 to do → consolidating (gemini-2.5-pro)
+2026-07-14T23:24:05.366Z   [dream] DONE in 0s — 0 new ledgers (150 total) → _fhds_b5ef892d.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 23ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65746[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3925Mo
+[NEURAL-ENGINE] CLOUD response in 13586ms
+2026-07-14T23:24:20.556Z   [qa] DREAM    (raw + ledgers)   : HIT (15s, 35src) — Based on the memory context, you have spent a total of 8 days on camping trips in the United States this year. * **5 days:** A camping trip to Yellowstone Natio…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 20ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65746[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3925Mo
+[NEURAL-ENGINE] CLOUD response in 15316ms
+2026-07-14T23:24:37.058Z   [qa] ALL      (sorted + ledgers): HIT (17s, 35src) — Based on the provided memory context, you have spent a total of 8 days on camping trips in the United States this year. This total is derived from the following…
+2026-07-14T23:24:37.063Z   ⏱ b5ef892d total 1min
+2026-07-14T23:24:37.063Z 
+━━ e831120c [multi-session] How many weeks did it take me to watch all the Marvel Cinematic Universe movies and the main Star Wa…
+2026-07-14T23:24:37.063Z    expected: 3.5 weeks
+2026-07-14T23:24:37.133Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T23:24:37.133Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T23:24:37.138Z   [sort] top spines: TRAVEL_TOURISM:153 FOOD_DRINK:87 CAREER_DEVELOPMENT:81 COOKING_RECIPES:78 FITNESS_WELLBEING:76 ART_CRAFTS:70 SOFTWARE_DEVELOPMENT:69 SOCIETAL_ISSUES:59 SPIRITUALITY_METAPHYSICS:56 ANTIQUES_COLLECTIBLES:54 MUSIC_ENTERTAINMENT:53 HOME_ORGANIZATION:43 BUSINESS_STRATEGY:43 SOCIAL_MEDIA_STRATEGY:40 HOME_IMPROVEMENT:40 EDUCATION_LEARNING:40 ANIMAL_CARE:40 PERFORMING_ARTS:38 FASHION_STYLE:37 BOOKS_LITERATURE:36 FICTIONAL_NARRATIVES:34 PRODUCTIVITY_ROUTINES:32 MARKETING_ADVERTISING:32 MODEL_BUILDING:31 HISTORY_GEOPOLITICS:31 … (+102 more)
+2026-07-14T23:24:37.291Z   [dream] 108 topical spines ≥3 chunks (3 chunks non-topical/nature, skipped) — 125 already consolidated, 13 to do → consolidating (gemini-2.5-pro)
+2026-07-14T23:24:37.306Z   [dream] DONE in 0s — 0 new ledgers (125 total) → _fhds_e831120c.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 23ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m66032[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3925Mo
+[NEURAL-ENGINE] CLOUD response in 18322ms
+2026-07-14T23:24:57.143Z   [qa] DREAM    (raw + ledgers)   : HIT (20s, 35src) — Based on the provided memory, it took you a total of 3.5 weeks to watch the Marvel Cinematic Universe movies and the main Star Wars films. * **Marvel Cinematic …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 22ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m66032[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3925Mo
+[NEURAL-ENGINE] CLOUD response in 14032ms
+2026-07-14T23:25:12.264Z   [qa] ALL      (sorted + ledgers): HIT (15s, 35src) — Based on the memory context, it took a total of 3.5 weeks to watch the Marvel Cinematic Universe movies and the main Star Wars films. This is the sum of the fol…
+2026-07-14T23:25:12.268Z   ⏱ e831120c total 1min
+2026-07-14T23:25:12.269Z 
+━━ 3a704032 [multi-session] How many plants did I acquire in the last month?
+2026-07-14T23:25:12.269Z    expected: 3
+2026-07-14T23:25:12.352Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T23:25:12.352Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T23:25:12.357Z   [sort] top spines: TRAVEL_PLANNING:157 COOKING_RECIPES:153 HEALTH_WELLNESS:86 SOCIAL_MEDIA_STRATEGY:78 HOME_GARDEN:60 COLLECTIBLES_HOBBIES:56 FITNESS_TRAINING:55 SUSTAINABILITY_PRACTICES:54 ACADEMIC_RESEARCH:52 AI_ML_RESEARCH:50 PHOTOGRAPHY:49 FASHION_STYLE:42 PARTY_PLANNING:41 GOVERNANCE_LAW_ENFORCEMENT:39 BUSINESS_STRATEGY:39 DAILY_PLANNING:34 SHOPPING_BEAUTY:33 CONTENT_CREATION:32 CAREER_GUIDANCE:32 CAREER_DEVELOPMENT_PLANNING:32 MUSIC_ENTERTAINMENT:31 TECHNOLOGY_ASSISTANCE:30 FINANCIAL_MANAGEMENT:30 ECO_FRIENDLY_LIVING:29 TRAVEL_ACCOMMODATION:27 … (+146 more)
+2026-07-14T23:25:12.510Z   [dream] 141 topical spines ≥3 chunks (2 chunks non-topical/nature, skipped) — 159 already consolidated, 13 to do → consolidating (gemini-2.5-pro)
+2026-07-14T23:25:12.524Z   [dream] DONE in 0s — 0 new ledgers (159 total) → _fhds_3a704032.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 18ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m46780[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3920Mo
+[NEURAL-ENGINE] CLOUD response in 20162ms
+2026-07-14T23:25:34.256Z   [qa] DREAM    (raw + ledgers)   : MISS (22s, 35src) — Based on the memory context, you acquired a total of 2 plants in the last month (between 2023/04/28 and 2023/05/28). The following plants were acquired: * **1 P…
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 20ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m46780[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3920Mo
+[NEURAL-ENGINE] CLOUD response in 21634ms
+2026-07-14T23:25:57.114Z   [qa] ALL      (sorted + ledgers): MISS (23s, 35src) — Based on the memory context, you acquired a total of 2 plants in the last month. * **1 Peace Lily:** Acquired approx. 2023/05/12 [Source 34]. * **1 Succulent:**…
+2026-07-14T23:25:57.121Z   ⏱ 3a704032 total 1min
+2026-07-14T23:25:57.121Z 
+━━ gpt4_d84a3211 [multi-session] How much total money have I spent on bike-related expenses since the start of the year?
+2026-07-14T23:25:57.121Z    expected: $185
+2026-07-14T23:25:57.138Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T23:25:57.138Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T23:25:57.143Z   [sort] top spines: CULINARY_ARTS:145 HEALTH_WELLBEING:135 TRAVEL_PLANNING:79 LITERATURE_ARTS:70 CAREER_DEVELOPMENT:67 DIGITAL_MARKETING:66 TRAVEL_DESTINATIONS:63 FITNESS_TRAINING:60 PHOTOGRAPHY_TIPS:58 ENTERTAINMENT_MEDIA:58 SOCIAL_MEDIA:57 HOME_IMPROVEMENT:49 CREATIVE_WRITING:49 ENVIRONMENTAL_SUSTAINABILITY:48 HISTORY_GEOPOLITICS:44 SOFTWARE_DEVELOPMENT:40 EDUCATION_PEDAGOGY:38 COMPUTER_SCIENCE:38 MUSIC_INSTRUMENTS:37 PRODUCTIVITY_PLANNING:35 PRODUCT_RECOMMENDATIONS:34 DATA_PRIVACY_REGULATIONS:31 GAMING_STRATEGIES:30 FINANCIAL_PLANNING:30 BUSINESS_OPERATIONS:28 … (+135 more)
+2026-07-14T23:25:57.180Z   [dream] 129 topical spines ≥3 chunks (0 chunks non-topical/nature, skipped) — 148 already consolidated, 15 to do → consolidating (gemini-2.5-pro)
+2026-07-14T23:25:57.193Z   [dream] DONE in 0s — 0 new ledgers (148 total) → _fhds_gpt4_d84a3211.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 21ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m66892[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3920Mo
+[NEURAL-ENGINE] CLOUD response in 13919ms
+2026-07-14T23:26:12.369Z   [qa] DREAM    (raw + ledgers)   : HIT (15s, 35src) — Based on the provided memory context, the total amount spent on bike-related expenses since the start of the year is **$185.00**. This total is composed of the …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 27ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m66892[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 3920Mo
+[NEURAL-ENGINE] CLOUD response in 17680ms
+2026-07-14T23:26:31.200Z   [qa] ALL      (sorted + ledgers): HIT (19s, 35src) — Based on the consolidated memory, you have spent a total of $185.00 on bike-related expenses since the start of the year. This total is composed of the followin…
+2026-07-14T23:26:31.206Z   ⏱ gpt4_d84a3211 total 1min
+2026-07-14T23:26:31.206Z 
+━━ aae3761f [multi-session] How many hours in total did I spend driving to my three road trip destinations combined?
+2026-07-14T23:26:31.206Z    expected: 15 hours for getting to the three destinations (or 30 hours for the round trip)
+2026-07-14T23:26:31.213Z   [sort] 0/0 scanned · 0 sorted · 0 new sub-spines · 0 failed batches
+2026-07-14T23:26:31.213Z   [sort] DONE in 0s — 0/0 sorted, 0 sub-spines created, 0 failed batches
+2026-07-14T23:26:31.219Z   [sort] top spines: GEOGRAPHY_TRAVEL:96 COOKING_RECIPES:94 FITNESS_SPORTS:87 ENTERTAINMENT_MEDIA:75 SCIENCE_TECHNOLOGY:70 HEALTH_WELLNESS:63 TRAVEL_PLANNING:61 HOME_ORGANIZATION:61 BOOK_RECOMMENDATIONS:55 FOOD_DRINK:53 HISTORY_POLITICS:45 ACADEMIC_RESEARCH:44 MARKETING_SALES:42 COLLECTIBLES_HOBBIES:42 AGRICULTURE_ENVIRONMENT:39 PERSONAL_WELLBEING:37 BIOLOGY_MEDICINE:37 PET_CARE:36 PRODUCTIVITY_TOOLS:33 CULTURAL_TRADITIONS:33 ECONOMICS_FINANCE:32 HOME_DECORATION:29 PHOTOGRAPHY_WORKSHOPS:28 GARDENING_LANDSCAPING:28 FICTIONAL_NARRATIVES:28 … (+126 more)
+2026-07-14T23:26:31.249Z   [dream] 128 topical spines ≥3 chunks (8 chunks non-topical/nature, skipped) — 145 already consolidated, 14 to do → consolidating (gemini-2.5-pro)
+2026-07-14T23:26:31.262Z   [dream] DONE in 0s — 0 new ledgers (145 total) → _fhds_aae3761f.db
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 21ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65428[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4199Mo
+[NEURAL-ENGINE] CLOUD response in 15703ms
+2026-07-14T23:26:48.078Z   [qa] DREAM    (raw + ledgers)   : HIT (17s, 35src) — Based on the memory context, you spent a total of 15 hours driving to your three road trip destinations combined. Here is the enumeration of the driving times: …
+[33m[RAG-PIPELINE] Vector Search in DEV_VAULT (Persistent)[0m
+[34m[EMBEDDING-KERNEL][0m [32m✓[0m harness:e5 | 768D | 25ms
+[35m[RAG-PIPELINE][0m [SPACE-CONSISTENCY] query embedded by the kernel (768D — corpus space)
+[35m[RAG-PIPELINE][0m [2m[TYPE-WEIGHTED][0m scope=GLOBAL mode=UNIFIED
+[35m[RAG-PIPELINE][0m [RETRIEVAL-PROFILE] topK=32 maxSourceChars=2400
+[35m[RAG-PIPELINE][0m [36m[DREAM-LAYER][0m +3 consolidation ledger(s) appended (reserve=3)
+[36m[VAULT-CORE][0m Haystack resolved — Spines: [33m0[0m | Raw Chars: [33m65428[0m | vault: [35mDEV_VAULT[0m
+[NEURAL-ENGINE] Local models unavailable — falling back to CLOUD
+[NEURAL-ENGINE] Routing to CLOUD (vertex:gemini-2.5-pro) — RAM free: 4199Mo
+[NEURAL-ENGINE] CLOUD response in 12982ms
+2026-07-14T23:27:02.271Z   [qa] ALL      (sorted + ledgers): HIT (14s, 35src) — Based on the memory context, you spent a total of 15 hours driving to your three road trip destinations. This is calculated from the following trips: * **Washin…
+2026-07-14T23:27:02.277Z   ⏱ aae3761f total 1min
+2026-07-14T23:27:02.278Z 
+════ SPINE→DREAM FULL-HAYSTACK ════ 8 q
+2026-07-14T23:27:02.278Z   0a995998         [multi-session] base= —   dream=HIT  all=HIT  · 157 ledgers · 1min
+2026-07-14T23:27:02.278Z   6d550036         [multi-session] base= —   dream=MISS all=MISS · 134 ledgers · 1min
+2026-07-14T23:27:02.278Z   gpt4_59c863d7    [multi-session] base= —   dream=MISS all=MISS · 200 ledgers · 1min
+2026-07-14T23:27:02.278Z   b5ef892d         [multi-session] base= —   dream=HIT  all=HIT  · 150 ledgers · 1min
+2026-07-14T23:27:02.278Z   e831120c         [multi-session] base= —   dream=HIT  all=HIT  · 125 ledgers · 1min
+2026-07-14T23:27:02.278Z   3a704032         [multi-session] base= —   dream=MISS all=MISS · 159 ledgers · 1min
+2026-07-14T23:27:02.278Z   gpt4_d84a3211    [multi-session] base= —   dream=HIT  all=HIT  · 148 ledgers · 1min
+2026-07-14T23:27:02.278Z   aae3761f         [multi-session] base= —   dream=HIT  all=HIT  · 145 ledgers · 1min
+2026-07-14T23:27:02.278Z   totals: baseline 0 · dream 5 · all-engines 5

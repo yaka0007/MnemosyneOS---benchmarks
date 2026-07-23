@@ -40,7 +40,7 @@ questions, the haystack sessions, and the ground-truth answers used below.
 |---|---|---|
 | **Baseline** | Retrieval only (semantic search → LLM answer), **no consolidation engine**. The honest floor. | `results/baseline-longmemeval-m-48q.jsonl` |
 | **Local sovereign** | The full path run **entirely on-device** with a 3B local model — zero cloud, no data leaves the machine. | `results/local-sovereign-12q.jsonl` |
-| **Full engine** | Baseline + Mnemosyne's memory-consolidation layer. Lifts multi-session aggregation specifically. Headline below. | transcripts on request (see §6) |
+| **Full engine** | Baseline + Mnemosyne's memory-consolidation layer, **re-run on the multi-session category only** (8 of the 48 questions). Composed with the carried baseline rows this gives the headline — see §5. | `results/engine-multisession-8q.jsonl` |
 
 **Models.** Answers: `gemini-2.5-pro` (cloud runs) or `Qwen2.5-3B` (local run).
 Judge: `gemini-2.5-flash`. Embeddings: e5-base (768-dimensional). Retrieval:
@@ -90,16 +90,46 @@ These rules are non-negotiable in every run:
 
 See `RESULTS.md` for the table. The headline:
 
-- **Baseline (full-haystack, 48q): 64.6%** — fully published and independently
-  recomputable from this repo (`node verify.js`).
+- **Baseline (full-haystack, 48q): 64.6%** — a single measured run, fully
+  published and independently recomputable from this repo (`node verify.js`).
 - **Full engine: 72.9%** — the consolidation layer lifts multi-session
-  aggregation from **1/8 to 5/8**; combined with the unchanged other categories
+  aggregation from **1/8 to 5/8**; composed with the unchanged other categories
   this is **35/48 = 72.9%**.
 
-**We report 72.9% as a lower bound, and here is exactly why:** only the
-multi-session category was re-run with the engine. The other categories' misses
-were never retried with consolidation, so a full engine re-run could only raise
-the number, not lower it.
+**Two distinct caveats apply to 72.9%. They are separate claims and we keep them
+separate**, because collapsing them into one vague "lower bound" would hide the
+second:
+
+**Caveat 1 — it is composed, not measured in one run.** Only the multi-session
+category (8 questions) was re-run with the engine. The other 40 rows are carried
+verbatim from the baseline ledger. There has never been a single 48-question run
+of the full engine. `verify.js` prints this composition — `30/40 carried + 5/8
+measured = 35/48` — every time it runs, so the number cannot quietly detach from
+how it was built. Do not quote 72.9% as a measured 48-question engine result.
+
+**Caveat 2 — it is a lower bound.** Because those 40 carried questions were never
+retried with consolidation, a full engine re-run can only raise the figure, not
+lower it.
+
+**A third thing worth stating plainly:** of the 5 multi-session HITs, one
+(`e831120c`) was *already* a baseline HIT. The engine's net recovery is **4
+questions**, not 5. The per-question rows make this checkable — every engine row
+carries a `baseline_correct` field.
+
+**Replay discipline, made auditable.** `results/engine-multisession-8q.jsonl`
+names **both runs behind every verdict**, including the two first-run HITs that
+were discarded for failing to reproduce:
+
+- `gpt4_59c863d7` (model kits) — **judge noise**: the engine gave the *same*
+  answer ("6 kits", ground truth "five") in both runs; the first judge scored it
+  HIT, the replay scored it MISS. Scored MISS.
+- `aae3761f` (road trips) — **answer variance**: the first run answered "15
+  hours" (correct, scored HIT), the replay answered "11 hours" — it found only
+  two of the three trips — and was correctly scored MISS. Scored MISS.
+
+Both are kept visible in the ledger with their discarded verdict rather than
+deleted. You may disagree with discarding them — the data to argue the other way
+is published.
 
 For reference points that are easy to over-claim on and that we deliberately
 separate out:

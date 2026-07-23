@@ -224,8 +224,8 @@
     </div>
     <div class="stat reported">
       <div class="n">72.9%</div>
-      <div class="frac">35 / 48 · lower bound</div>
-      <div class="d">Full engine, with memory consolidation. <span class="badge-v rep">reported</span></div>
+      <div class="frac">35 / 48 · composed · lower bound</div>
+      <div class="d">Full engine, with memory consolidation — 30/40 carried from the baseline + 5/8 measured on multi-session. <span class="badge-v ok">✓ recomputable</span></div>
     </div>
     <div class="stat">
       <div class="n">50%</div>
@@ -252,7 +252,19 @@
   claimed headline:                   31/48 = 64.6%
   match: total ok · hits ok · accuracy ok
 
-<span class="ok">✓ ALL LEDGERS CONSISTENT</span> — headline = exact sum of published rows.
+<span class="ok">✓</span> Full engine — multi-session category (8q)
+  recomputed from 8 published rows:    5/8 = 62.5%
+  replay rule: 2 first-run HITs did NOT reproduce → scored MISS
+
+<span class="ok">✓ COMPOSED HEADLINE</span> — full engine, full-haystack
+  This number is COMPOSED from two ledgers, not measured in one 48q run:
+    30/40  carried unchanged from the baseline (never re-run with the engine)
+     5/8   measured with the engine (multi-session only)
+    35/48  = 72.9%   recomputed
+          claimed: 35/48 = 72.9%  → ok
+
+<span class="ok">✓ ALL LEDGERS CONSISTENT</span> — every headline, including the composed
+  one, is the exact sum of the published rows.
 
 <span class="cmt"># and audit the grader itself against the public ground truth</span>
 <span class="cmd">$ node scoring.js --selftest</span>
@@ -281,6 +293,7 @@
       </table>
     </div>
     <p class="note" style="margin-top:16px">Answer excerpts are trimmed for reading; the verdicts they carry are the real graded verdicts. Full untruncated transcripts are available on request.</p>
+    <p class="note"><b>The engine's 8 multi-session rows are a separate ledger:</b> <a href="results/engine-multisession-8q.jsonl"><code class="mono">results/engine-multisession-8q.jsonl</code></a>. Each row names <b>both runs</b> behind its verdict, carries a <code class="mono">baseline_correct</code> field so you can see which questions the engine actually recovered, and keeps the two discarded first-run HITs visible with their reason. Those 8 rows plus the 40 carried baseline rows above are exactly what <code class="mono">verify.js</code> composes into 35/48.</p>
   </div>
 </section>
 
@@ -302,7 +315,8 @@
       <div class="arrow">→</div>
       <div class="end b"><div class="big">5/8</div><div class="cap">full engine</div></div>
     </div>
-    <p class="note"><b>Why 72.9% is reported as a lower bound.</b> Only the multi-session category was re-run with the engine; the other categories' misses were never retried with consolidation, so a full engine re-run could only raise the number, not lower it. The individual full-engine transcripts are available on request rather than folded into the recomputable ledger — because the honest record notes that a couple of first-pass verdicts were LLM-judge noise, corrected on replay. We publish what replays.</p>
+    <p class="note"><b>How 72.9% is built — two separate caveats, kept separate.</b> <b>(1) It is composed, not measured in one run.</b> Only the multi-session category (8 questions) was re-run with the engine; the other 40 rows are carried verbatim from the baseline ledger. There has never been a single 48-question run of the full engine, and <code class="mono">verify.js</code> prints that composition every time it runs. <b>(2) It is a lower bound</b> — those 40 carried questions were never retried with consolidation, so a full re-run can only raise the figure. Also worth stating: 1 of the 5 multi-session HITs (<code class="mono">e831120c</code>) was already a baseline HIT, so the engine's net recovery is <b>4 questions</b>, not 5.</p>
+    <p class="note"><b>What we discarded, and why.</b> A HIT counts only if it reproduces on a second run. Two first-run HITs did not, and both are published in the ledger with their discarded verdict intact rather than deleted: <code class="mono">gpt4_59c863d7</code> (model kits) — <i>judge noise</i>: the engine gave the same answer ("6 kits", ground truth "five") in both runs, and only the first judge called it a HIT. <code class="mono">aae3761f</code> (road trips) — <i>answer variance</i>: the first run answered "15 hours" and was correctly scored HIT, the replay found only two of the three trips and answered "11 hours". Both are scored MISS. You may disagree with discarding them — the data to argue the other way is published.</p>
   </div>
 </section>
 
